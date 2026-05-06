@@ -1,0 +1,30 @@
+bin/
+obj/
+.vs/
+.vscode/
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.rsuser
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Package artifacts
+artifacts/
+packages/
