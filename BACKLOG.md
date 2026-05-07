@@ -46,7 +46,8 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S01-01C Add learner starter assets under `exercises/01-foundations/01-development-environment-and-cli/`.
 - [x] PLAT-01 Create the first `.sln`, sample project, and xUnit test project.
 - [x] PLAT-02 Update `validate-repository.ps1` to run tests when they exist.
-- [ ] S01-04 Author the next two Stage 1 topics: first console app and variables-and-types.
+- [x] S01-02 Create `02-first-console-application`.
+- [ ] S01-03 Create `03-variables-types-and-conversions`.
 - [ ] S01-05 Add the first Stage 1 guided lab.
 - [ ] PLAT-03 Create a curriculum index page linking stages to topic folders and code assets.
 
@@ -61,7 +62,7 @@ Goal: get a new learner from zero to writing small C# programs confidently.
 Backlog:
 
 - [x] S01-01 Complete `01-development-environment-and-cli` end to end, including sub-slices `S01-01A` through `S01-01C`.
-- [ ] S01-02 Create `02-first-console-application`.
+- [x] S01-02 Create `02-first-console-application`.
 - [ ] S01-03 Create `03-variables-types-and-conversions`.
 - [ ] S01-04 Create `04-control-flow-and-methods`.
 - [ ] S01-05 Create `05-nullability-and-debugging-basics`.

@@ -70,15 +70,15 @@ The repository foundation is in place. Implemented so far:
 2. AI authoring guidance and reusable lesson and exercise templates.
 3. Stage-level curriculum folders and overviews.
 4. A topic scaffolding script and the first generated topic skeleton.
-5. One complete Stage 1 topic with a lesson bundle, runnable sample, learner starter assets, and verification.
-6. The first solution-backed sample and xUnit test project wired into repository validation.
+5. Two complete Stage 1 topics with lesson bundles, runnable samples, learner starter assets, and verification.
+6. Solution-backed sample and xUnit test projects wired into repository validation for multiple Stage 1 topics.
 
 The next implementation steps are:
 
-1. Author the next Stage 1 topics: first console application and variables and types.
+1. Author the next Stage 1 topic: variables, types, and conversions.
 2. Create a curriculum index page linking stages, topics, demos, exercises, and tests.
 3. Add the first guided Stage 1 lab.
 
-The next useful milestone is to expand the proven lesson-plus-sample-plus-tests pattern across the rest of Stage 1.
+The next useful milestone is to expand the proven lesson-plus-sample-plus-tests pattern into the remaining Stage 1 topics.
 
 Use `BACKLOG.md` as the source of truth for execution order and stage-level completion tracking.

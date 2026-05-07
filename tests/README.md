@@ -5,6 +5,7 @@ This directory contains automated tests for runnable samples and, later, integra
 ## Current Coverage
 
 - `tests/01-foundations/01-development-environment-and-cli/DotnetAcademy.CliBasicsDemo.Tests/` verifies the first CLI basics sample.
+- `tests/01-foundations/02-first-console-application/DotnetAcademy.FirstConsoleAppDemo.Tests/` verifies the first console application sample.
 
 ## Conventions
 
