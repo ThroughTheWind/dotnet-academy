@@ -25,6 +25,12 @@ try {
   $solutions = Get-ChildItem -Path $repoRoot -Filter *.sln -Recurse -File
   $projects = Get-ChildItem -Path $repoRoot -Filter *.csproj -Recurse -File |
     Where-Object { $_.FullName -notmatch '[\\/](bin|obj)[\\/]' }
+  $testProjects = @(
+    $projects | Where-Object {
+      $content = Get-Content -Path $_.FullName -Raw
+      $content -match 'Microsoft\.NET\.Test\.Sdk' -or $content -match '<IsTestProject>true</IsTestProject>'
+    }
+  )
 
   if ($solutions.Count -gt 0) {
     foreach ($solution in $solutions) {
@@ -33,6 +39,11 @@ try {
 
       Write-Host "Building solution $($solution.FullName)"
       dotnet build $solution.FullName --configuration Release --no-restore
+
+      if ($testProjects.Count -gt 0) {
+        Write-Host "Running tests for solution $($solution.FullName)"
+        dotnet test $solution.FullName --configuration Release --no-build
+      }
     }
   }
   elseif ($projects.Count -gt 0) {
@@ -42,6 +53,13 @@ try {
 
       Write-Host "Building project $($project.FullName)"
       dotnet build $project.FullName --configuration Release --no-restore
+    }
+
+    if ($testProjects.Count -gt 0) {
+      foreach ($testProject in $testProjects) {
+        Write-Host "Running tests for project $($testProject.FullName)"
+        dotnet test $testProject.FullName --configuration Release --no-build
+      }
     }
   }
   else {
@@ -53,3 +71,4 @@ try {
 finally {
   Pop-Location
 }
+

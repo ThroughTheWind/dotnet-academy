@@ -6,6 +6,6 @@ Keep scripts small, predictable, and safe to run locally and in CI.
 
 Current scripts:
 
-- `validate-repository.ps1` checks the baseline scaffold and builds any discovered .NET projects.
+- `validate-repository.ps1` checks the baseline scaffold, restores and builds the solution or projects, and runs tests when test projects exist.
 - `new-curriculum-topic.ps1` creates a topic skeleton across `docs/`, `src/`, `exercises/`, and `labs/`.
 

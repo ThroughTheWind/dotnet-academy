@@ -2,6 +2,8 @@
 
 This roadmap defines the initial v1 learning path for Dotnet Academy. The goal is not only to teach syntax, but to build the habits, system understanding, and engineering judgment needed to become a strong senior .NET developer.
 
+For implementation tracking, sequencing, and end-to-end delivery status, use `BACKLOG.md` alongside this roadmap.
+
 ## Principles
 
 - Start with fundamentals, but always move toward production-grade thinking.

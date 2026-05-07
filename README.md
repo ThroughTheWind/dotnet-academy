@@ -38,6 +38,7 @@ The repository is designed for iterative authoring with AI assistance, but every
 |-- exercises/
 |-- labs/
 |-- scripts/
+|-- tests/
 `-- src/
 ```
 
@@ -47,6 +48,7 @@ The repository is designed for iterative authoring with AI assistance, but every
 - `src/` contains runnable demos and reference implementations.
 - `exercises/` contains learner tasks and starter projects.
 - `labs/` contains guided labs and capstone projects.
+- `tests/` contains automated tests for runnable samples and later integrated solutions.
 - `.ai/` contains instructions for AI-assisted authoring so changes stay consistent.
 - `scripts/` and `.github/workflows/` keep the repository validated as it grows.
 
@@ -54,10 +56,11 @@ The repository is designed for iterative authoring with AI assistance, but every
 
 1. Install the .NET 10 SDK.
 2. Read `ROADMAP.md` for the staged learning path.
-3. Read `.ai/instructions.md` and `.ai/conventions.md` before authoring content.
-4. Use `docs/templates/` when creating new lessons or exercises.
-5. Use `./scripts/new-curriculum-topic.ps1` when creating a new topic skeleton.
-6. Run `./scripts/validate-repository.ps1` before committing structural changes.
+3. Read `BACKLOG.md` for the implementation order and tracking model.
+4. Read `.ai/instructions.md` and `.ai/conventions.md` before authoring content.
+5. Use `docs/templates/` when creating new lessons or exercises.
+6. Use `./scripts/new-curriculum-topic.ps1` when creating a new topic skeleton.
+7. Run `./scripts/validate-repository.ps1` before committing structural changes.
 
 ## Current Status
 
@@ -67,11 +70,15 @@ The repository foundation is in place. Implemented so far:
 2. AI authoring guidance and reusable lesson and exercise templates.
 3. Stage-level curriculum folders and overviews.
 4. A topic scaffolding script and the first generated topic skeleton.
+5. One complete Stage 1 topic with a lesson bundle, runnable sample, learner starter assets, and verification.
+6. The first solution-backed sample and xUnit test project wired into repository validation.
 
 The next implementation steps are:
 
-1. Author the first complete topic under `01-foundations`.
-2. Create the first runnable sample project and matching exercise assets.
-3. Add the first testable .NET solution to establish the code workflow.
+1. Author the next Stage 1 topics: first console application and variables and types.
+2. Create a curriculum index page linking stages, topics, demos, exercises, and tests.
+3. Add the first guided Stage 1 lab.
 
-The next useful milestone is to pair the first authored topic with a runnable sample project.
+The next useful milestone is to expand the proven lesson-plus-sample-plus-tests pattern across the rest of Stage 1.
+
+Use `BACKLOG.md` as the source of truth for execution order and stage-level completion tracking.
