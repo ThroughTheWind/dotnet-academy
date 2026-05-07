@@ -6,6 +6,8 @@ This directory contains automated tests for runnable samples and, later, integra
 
 - `tests/01-foundations/01-development-environment-and-cli/DotnetAcademy.CliBasicsDemo.Tests/` verifies the first CLI basics sample.
 - `tests/01-foundations/02-first-console-application/DotnetAcademy.FirstConsoleAppDemo.Tests/` verifies the first console application sample.
+- `tests/01-foundations/03-variables-types-and-conversions/DotnetAcademy.VariablesTypesDemo.Tests/` verifies the variables, types, and conversions sample.
+- `tests/01-foundations/04-control-flow-and-methods/DotnetAcademy.ControlFlowMethodsDemo.Tests/` verifies the control flow and methods sample.
 
 ## Conventions
 

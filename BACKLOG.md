@@ -47,8 +47,10 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] PLAT-01 Create the first `.sln`, sample project, and xUnit test project.
 - [x] PLAT-02 Update `validate-repository.ps1` to run tests when they exist.
 - [x] S01-02 Create `02-first-console-application`.
-- [ ] S01-03 Create `03-variables-types-and-conversions`.
-- [ ] S01-05 Add the first Stage 1 guided lab.
+- [x] S01-03 Create `03-variables-types-and-conversions`.
+- [x] S01-04 Create `04-control-flow-and-methods`.
+- [ ] S01-05 Create `05-nullability-and-debugging-basics`.
+- [ ] S01-08 Add the first Stage 1 guided lab.
 - [ ] PLAT-03 Create a curriculum index page linking stages to topic folders and code assets.
 
 ## Stage Backlog
@@ -63,8 +65,8 @@ Backlog:
 
 - [x] S01-01 Complete `01-development-environment-and-cli` end to end, including sub-slices `S01-01A` through `S01-01C`.
 - [x] S01-02 Create `02-first-console-application`.
-- [ ] S01-03 Create `03-variables-types-and-conversions`.
-- [ ] S01-04 Create `04-control-flow-and-methods`.
+- [x] S01-03 Create `03-variables-types-and-conversions`.
+- [x] S01-04 Create `04-control-flow-and-methods`.
 - [ ] S01-05 Create `05-nullability-and-debugging-basics`.
 - [ ] S01-06 Add a Stage 1 console solution with runnable demos.
 - [ ] S01-07 Add micro and guided exercises for every Stage 1 topic.
