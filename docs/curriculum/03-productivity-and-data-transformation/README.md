@@ -5,13 +5,13 @@ This stage focuses on the everyday language and library features that make .NET 
 ## Outcomes
 
 - Transform data with LINQ clearly and efficiently.
-- Work with files, JSON, configuration, and common BCL APIs.
-- Use async and await correctly in small and medium-sized applications.
+- Work with files, JSON, configuration, and modern collection APIs effectively.
+- Use async, await, cancellation, and streaming patterns correctly in small and medium-sized applications.
 
 ## Planned Topics
 
 - LINQ and query thinking
-- Collections and data shaping
+- Collections, data shaping, and immutability tradeoffs
 - File I/O and serialization
 - Configuration basics
-- Async and await foundations
+- Async, await, cancellation, async streams, and `ValueTask` foundations

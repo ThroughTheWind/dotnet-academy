@@ -9,3 +9,4 @@ Unlike the runnable sample under `src/`, these assets are meant to support the l
 - `workspace/` is the recommended place to create the learner's practice project.
 - `challenge-brief.md` summarizes the task in short form.
 - `expected-output.md` shows example output structures for validation.
+- `micro-exercise.md` is the short focused drill for changing output and rerunning the app.

@@ -62,3 +62,9 @@ Compare your output structure to the starter pack examples. The exact wording ca
 - Replace one `if`/`else if` chain with a `switch` expression after the main version works.
 - Accept command-line arguments later and pass them into the same methods.
 
+## Micro Exercise
+
+For a 10-minute focused drill, use `exercises/01-foundations/04-control-flow-and-methods/micro-exercise.md`.
+
+This micro exercise isolates one decision, one method, and one short loop so the learner can practice the mechanics before building a larger recommendation app.
+

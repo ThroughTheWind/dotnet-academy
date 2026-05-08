@@ -4,14 +4,14 @@ This stage introduces the application host, request pipeline, and platform featu
 
 ## Outcomes
 
-- Explain how an ASP.NET Core app starts, configures services, and processes requests.
-- Use middleware, routing, dependency injection, configuration, and options correctly.
-- Apply validation, error handling, and secure defaults in web applications.
+- Explain how an ASP.NET Core app starts, configures services, processes requests, and shuts down.
+- Use middleware, routing, dependency injection, configuration, options, and host lifecycle hooks correctly.
+- Apply validation, error handling, secure defaults, and background-service patterns in web applications.
 
 ## Planned Topics
 
-- Hosting and application startup
+- Hosting, application startup, and host lifecycle
 - Middleware and request pipelines
 - Dependency injection and configuration
-- Logging, validation, and error handling
-- Secure defaults and environment-aware behavior
+- Logging, validation, error handling, and startup diagnostics
+- Secure defaults, background services, and environment-aware behavior

@@ -29,71 +29,72 @@ For implementation tracking, sequencing, and end-to-end delivery status, use `BA
 ### Stage 3: Productivity and Data Transformation
 
 - LINQ fundamentals and query thinking
-- Working with collections and immutability tradeoffs
+- Working with collections plus immutable, read-only, and frozen collection tradeoffs
 - File I/O, serialization, configuration basics
-- Async and await foundations
+- Async, await, cancellation, async streams, and `ValueTask` foundations
 
 ### Stage 4: Runtime, Tooling, and Diagnostics
 
-- .NET CLI, SDK layout, build pipeline, package management
-- Memory model, garbage collection, spans, allocations
-- Logging, metrics, tracing, debugging, profiling
-- Concurrency, cancellation, and resilience basics
+- .NET CLI, SDK layout, build pipeline, package management, and diagnostics tooling
+- Memory model, garbage collection, spans, stack versus heap tradeoffs, pooling, and allocations
+- Logging, metrics, tracing, counters, dumps, debugging, and profiling
+- Concurrency, cancellation, threading primitives, channels, backpressure, and resilience basics
 
 ### Stage 5: Data and Persistence
 
 - Relational modeling and SQL fundamentals for .NET developers
 - EF Core basics and advanced usage
-- Migrations, query performance, transactions
+- Migrations, query performance, transactions, and query-shape analysis
 - Caching strategies and tradeoffs
 
 ### Stage 6: ASP.NET Core Foundations
 
-- Hosting model, middleware, routing, DI, configuration
+- Hosting model, middleware, routing, DI, configuration, and host lifecycle
 - Options pattern, logging, environment configuration
-- Validation, error handling, and secure defaults
+- Validation, error handling, secure defaults, and background service foundations
 
 ### Stage 7: API Development
 
 - REST API design and versioning
 - Minimal APIs and controllers
 - Authentication and authorization
-- OpenAPI, contract design, pagination, filtering
-- gRPC services and SignalR for real-time communication
+- OpenAPI, contract design, compatibility, pagination, and filtering
+- gRPC services, SignalR, and reliability concerns for real-time communication
 
 ### Stage 8: Blazor
 
-- Components, parameters, rendering, forms, and validation
-- State management and data loading
+- Components, parameters, render modes, lifecycle, forms, and validation
+- State management, data loading, virtualization, and streaming rendering
 - Authentication and authorization in UI flows
-- Integrating Blazor with APIs and real-world application structure
+- Integrating Blazor with APIs, JS interop, and production-ready application structure
 
 ### Stage 9: Testing and Quality
 
-- Unit, integration, and end-to-end testing
-- xUnit and ASP.NET Core testing patterns
-- Test doubles, fixtures, and maintainable test suites
-- Static analysis and code quality gates
+- Unit, integration, component, and end-to-end testing
+- xUnit, ASP.NET Core, EF Core, and container-backed testing patterns
+- Test doubles, fixtures, async testing, property-based checks, and maintainable test suites
+- Contract verification, static analysis, and code quality gates
 
 ### Stage 10: Performance and Memory Optimization
 
 - Measuring before optimizing
-- Allocation analysis and hot path tuning
-- Async throughput, backpressure, and scalability
+- Allocation analysis, memory layout, pooling, and hot path tuning
+- Async throughput, backpressure, channels, and scalability
+- SIMD, vectorization, JIT, PGO, trimming, and publish-time performance tradeoffs
 - API, database, and caching performance patterns
 
 ### Stage 11: Architecture and Delivery
 
 - Layered architecture, vertical slice architecture, and modular monolith patterns
 - SOLID in practice and its limits
-- Domain boundaries, messaging, and system design basics
-- Deployment, configuration, observability, and release concerns
+- Domain boundaries, messaging, background processing, and delivery reliability basics
+- Deployment, configuration, observability, publish models, and release concerns
 
 ### Stage 12: Capstone
 
 - End-to-end system design and implementation
-- API, data access, caching, background processing, and Blazor UI
-- Documentation, testing, performance review, and production hardening
+- API, data access, caching, background processing, channels, and Blazor UI
+- Documentation, testing, observability, performance review, and production hardening
 
 ## Done Definition For A Stage
 

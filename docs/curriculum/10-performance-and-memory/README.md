@@ -5,12 +5,14 @@ This stage focuses on measurement-driven optimization for APIs, applications, an
 ## Outcomes
 
 - Measure performance before making changes.
-- Identify allocation-heavy code and reduce unnecessary memory pressure.
-- Improve throughput, latency, and scalability using evidence from diagnostics tools.
+- Identify allocation-heavy code, memory-layout issues, and unnecessary memory pressure.
+- Improve throughput, latency, and scalability using evidence from diagnostics tools and benchmarks.
+- Evaluate vectorization, compilation, and publish-time tradeoffs before shipping optimizations.
 
 ## Planned Topics
 
-- Benchmarking and measurement
-- Allocation analysis and hot paths
-- Async throughput and backpressure
+- Benchmarking, profiling, and measurement
+- Allocation analysis, memory layout, pooling, and hot paths
+- Async throughput, backpressure, channels, and pipeline tuning
+- SIMD, vectorization, JIT, PGO, trimming, ReadyToRun, and Native AOT tradeoffs
 - Database, API, and caching performance

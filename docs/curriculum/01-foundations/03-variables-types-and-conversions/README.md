@@ -18,7 +18,7 @@ By the end of the topic, the learner should be able to:
 - Runnable sample project: `src/01-foundations/03-variables-types-and-conversions/DotnetAcademy.VariablesTypesDemo/`.
 - Learner starter assets: `exercises/01-foundations/03-variables-types-and-conversions/`.
 - Automated tests: `tests/01-foundations/03-variables-types-and-conversions/DotnetAcademy.VariablesTypesDemo.Tests/`.
-- The first guided Stage 1 lab remains tracked at the stage level in backlog item `S01-05`.
+- Guided lab connection: `labs/01-foundations/06-study-session-planner-lab/` uses this topic as part of the first integrated Stage 1 project.
 
 ## Status
 

@@ -8,8 +8,10 @@ $requiredPaths = @(
   '.ai/instructions.md',
   '.ai/conventions.md',
   'docs/curriculum/README.md',
+  'docs/process/issue-and-branch-naming.md',
   'docs/templates/lesson-template.md',
-  'docs/templates/exercise-template.md'
+  'docs/templates/exercise-template.md',
+  'docs/templates/review-checklist.md'
 )
 
 Push-Location $repoRoot

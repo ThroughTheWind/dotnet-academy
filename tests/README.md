@@ -8,6 +8,12 @@ This directory contains automated tests for runnable samples and, later, integra
 - `tests/01-foundations/02-first-console-application/DotnetAcademy.FirstConsoleAppDemo.Tests/` verifies the first console application sample.
 - `tests/01-foundations/03-variables-types-and-conversions/DotnetAcademy.VariablesTypesDemo.Tests/` verifies the variables, types, and conversions sample.
 - `tests/01-foundations/04-control-flow-and-methods/DotnetAcademy.ControlFlowMethodsDemo.Tests/` verifies the control flow and methods sample.
+- `tests/01-foundations/05-nullability-and-debugging-basics/DotnetAcademy.NullabilityDebuggingDemo.Tests/` verifies the nullability and debugging basics sample.
+- `tests/01-foundations/06-study-session-planner-lab/DotnetAcademy.StudySessionPlannerLab.Tests/` verifies the first integrated Stage 1 lab reference implementation.
+- `tests/02-csharp-core/01-classes-and-objects/DotnetAcademy.ClassesObjectsDemo.Tests/` verifies the first Stage 2 classes-and-objects sample.
+- `tests/02-csharp-core/02-records-structs-and-enums/DotnetAcademy.RecordsStructsEnumsDemo.Tests/` verifies the second Stage 2 object-modeling sample.
+- `tests/02-csharp-core/03-interfaces-and-composition/DotnetAcademy.InterfacesCompositionDemo.Tests/` verifies the first Stage 2 abstraction sample centered on interfaces and composition.
+- `tests/02-csharp-core/04-inheritance-basics/DotnetAcademy.InheritanceBasicsDemo.Tests/` verifies the Stage 2 inheritance basics sample.
 
 ## Conventions
 

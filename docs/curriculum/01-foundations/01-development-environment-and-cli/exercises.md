@@ -63,3 +63,9 @@ Expected observable result:
 - Create a second console app in a different folder without looking up the command again.
 - Inspect the `.csproj` file and identify the SDK being used by the project.
 
+## Micro Exercise
+
+For a 10-minute focused drill, use `exercises/01-foundations/01-development-environment-and-cli/micro-exercise.md`.
+
+This micro exercise isolates the three smallest habits from the topic: verifying the SDK, discovering templates, and identifying the project file that controls a basic console app.
+

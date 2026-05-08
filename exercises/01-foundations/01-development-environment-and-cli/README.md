@@ -9,6 +9,7 @@ This topic intentionally does not provide a prebuilt project because the learner
 - `workspace/` is the recommended place to create the learner's practice project.
 - `reflection-template.md` is the answer sheet for the written verification questions in the exercise.
 - `submission-checklist.md` is the final self-check before moving to the next topic.
+- `micro-exercise.md` is the short focused drill for quick CLI and SDK verification practice.
 
 ## Suggested Workflow
 

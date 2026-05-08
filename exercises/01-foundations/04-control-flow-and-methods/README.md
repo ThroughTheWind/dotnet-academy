@@ -9,3 +9,4 @@ The goal is to help the learner build their own small recommendation app while k
 - `workspace/` is the recommended place to create the learner's practice project.
 - `challenge-brief.md` summarizes the task.
 - `expected-output.md` shows example output structure for self-checking.
+- `micro-exercise.md` is the short focused drill for one method, one decision, and one loop.

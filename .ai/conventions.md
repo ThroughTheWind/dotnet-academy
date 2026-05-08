@@ -58,8 +58,11 @@ learning_outcomes:
 
 ## Review Checklist
 
-- The lesson states prerequisites and outcomes.
-- The exercise is testable or otherwise verifiable.
-- The code uses current .NET guidance.
-- The topic fits the roadmap and stage progression.
+Use `docs/templates/review-checklist.md` as the reusable completion rubric for lessons, exercises, labs, and code samples.
+
+Minimum expectations:
+
+- The asset declares prerequisites, outcomes, and verification clearly.
+- The code or output aligns with current .NET guidance.
+- The content fits the roadmap and stage progression.
 - The learner can understand why the topic matters, not just how to copy it.

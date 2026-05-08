@@ -60,3 +60,9 @@ Compare your output to the examples in the starter pack. The wording does not ne
 - Add the current date to the output.
 - Create a second version of the app with slightly different wording without looking up the commands again.
 
+## Micro Exercise
+
+For a 10-minute focused drill, use `exercises/01-foundations/02-first-console-application/micro-exercise.md`.
+
+This micro exercise isolates the smallest loop of the topic: change a console app's output, rerun it, and confirm the result changed for the reason you expected.
+

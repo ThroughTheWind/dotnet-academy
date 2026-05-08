@@ -34,6 +34,7 @@ The repository is designed for iterative authoring with AI assistance, but every
 |   `-- workflows/
 |-- docs/
 |   |-- curriculum/
+|   |-- process/
 |   `-- templates/
 |-- exercises/
 |-- labs/
@@ -44,7 +45,7 @@ The repository is designed for iterative authoring with AI assistance, but every
 
 ## Working Model
 
-- `docs/` contains the learning path, lesson templates, and curriculum definitions.
+- `docs/` contains the learning path, templates, and contributor process docs.
 - `src/` contains runnable demos and reference implementations.
 - `exercises/` contains learner tasks and starter projects.
 - `labs/` contains guided labs and capstone projects.
@@ -70,15 +71,21 @@ The repository foundation is in place. Implemented so far:
 2. AI authoring guidance and reusable lesson and exercise templates.
 3. Stage-level curriculum folders and overviews.
 4. A topic scaffolding script and the first generated topic skeleton.
-5. Four complete Stage 1 topics with lesson bundles, runnable samples, learner starter assets, and verification.
-6. Solution-backed sample and xUnit test projects wired into repository validation for multiple Stage 1 topics.
+5. Five complete Stage 1 topics with lesson bundles, runnable samples, learner starter assets, and verification.
+6. A Stage 1 console solution with runnable demos and xUnit test projects wired into repository validation.
+7. Guided and micro exercises now cover the full Stage 1 topic set.
+8. The first integrated Stage 1 guided lab now exists with starter assets, a runnable reference implementation, and automated tests.
+9. A curriculum index now links stage overviews to implemented Stage 1 lessons, exercises, demos, tests, and lab assets.
+10. A reusable review checklist now defines the baseline acceptance criteria for lessons, exercises, labs, and code samples.
+11. Issue and branch naming conventions now map repository work directly back to backlog items.
+12. Stage 2 now includes four complete topics covering object modeling plus the first abstraction topics.
 
 The next implementation steps are:
 
-1. Author the next Stage 1 topic: nullability and debugging basics.
-2. Create a curriculum index page linking stages, topics, demos, exercises, and tests.
-3. Add the first guided Stage 1 lab.
+1. Continue the Stage 2 core C# sequence with generics, collections, and exceptions.
+2. Add markdown and metadata validation automation.
+3. Define sample data and fixtures conventions.
 
-The next useful milestone is to finish the last planned Stage 1 topic and then add the first guided Stage 1 lab.
+The next useful milestone is to extend Stage 2 into reusable code patterns so the type-modeling work becomes more practical.
 
 Use `BACKLOG.md` as the source of truth for execution order and stage-level completion tracking.

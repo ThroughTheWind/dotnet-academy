@@ -4,13 +4,13 @@ This stage develops the testing and quality habits needed for reliable .NET syst
 
 ## Outcomes
 
-- Write unit, integration, and application-level tests.
-- Test APIs and web applications with practical .NET tooling.
-- Use analyzers and quality checks to keep the codebase healthy.
+- Write unit, integration, component, and application-level tests.
+- Test APIs, Blazor applications, databases, and async flows with practical .NET tooling.
+- Use analyzers, contracts, and quality checks to keep the codebase healthy.
 
 ## Planned Topics
 
-- Unit testing with xUnit
-- Integration testing for ASP.NET Core
-- Test data, fixtures, and maintainable suites
-- Static analysis and quality gates
+- Unit testing with xUnit, theories, and property-based checks
+- Integration testing for ASP.NET Core, EF Core, and container-backed dependencies
+- Test doubles, fixtures, async testing, and maintainable suites
+- Blazor component testing, contract verification, static analysis, and quality gates

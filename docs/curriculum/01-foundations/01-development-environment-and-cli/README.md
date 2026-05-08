@@ -17,7 +17,7 @@ By the end of the topic, the learner should be able to:
 - `exercises.md` contains a guided exercise that verifies the learner can use the SDK and CLI successfully.
 - Runnable sample project: `src/01-foundations/01-development-environment-and-cli/DotnetAcademy.CliBasicsDemo/`.
 - Learner starter assets: `exercises/01-foundations/01-development-environment-and-cli/`.
-- The first guided lab is tracked at the stage level in backlog item `S01-05`.
+- Guided lab connection: `labs/01-foundations/06-study-session-planner-lab/` uses this topic as part of the first integrated Stage 1 project.
 
 ## Status
 

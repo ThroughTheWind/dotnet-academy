@@ -61,3 +61,9 @@ Compare the structure of your output to the starter pack examples. The exact wor
 - Add a `char` grade or level marker to the summary.
 - Replace one explicit type with `var` and explain why the inferred type is still clear.
 
+## Micro Exercise
+
+For a 10-minute focused drill, use `exercises/01-foundations/03-variables-types-and-conversions/micro-exercise.md`.
+
+This micro exercise isolates the core idea of the topic: choose simple types correctly and convert one text value into a number before printing it.
+
