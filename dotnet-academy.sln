@@ -231,6 +231,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-dotnet-cli-sdk-build-and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAcademy.DotnetCliBuildPackagingDemo.Tests", "tests\04-runtime-tooling-and-diagnostics\01-dotnet-cli-sdk-build-and-packaging\DotnetAcademy.DotnetCliBuildPackagingDemo.Tests\DotnetAcademy.DotnetCliBuildPackagingDemo.Tests.csproj", "{87AD1386-766B-4566-A7D8-17283CB0C7A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-memory-model-gc-and-allocation-awareness", "02-memory-model-gc-and-allocation-awareness", "{84990F52-B29A-43AF-C636-84047E6CCA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAcademy.MemoryGcAllocationDemo", "src\04-runtime-tooling-and-diagnostics\02-memory-model-gc-and-allocation-awareness\DotnetAcademy.MemoryGcAllocationDemo\DotnetAcademy.MemoryGcAllocationDemo.csproj", "{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-memory-model-gc-and-allocation-awareness", "02-memory-model-gc-and-allocation-awareness", "{3278895B-85C5-62BE-4557-3C898DD93581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAcademy.MemoryGcAllocationDemo.Tests", "tests\04-runtime-tooling-and-diagnostics\02-memory-model-gc-and-allocation-awareness\DotnetAcademy.MemoryGcAllocationDemo.Tests\DotnetAcademy.MemoryGcAllocationDemo.Tests.csproj", "{38A9F533-C565-4496-B985-1154068BBC13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -841,6 +849,30 @@ Global
 		{87AD1386-766B-4566-A7D8-17283CB0C7A7}.Release|x64.Build.0 = Release|Any CPU
 		{87AD1386-766B-4566-A7D8-17283CB0C7A7}.Release|x86.ActiveCfg = Release|Any CPU
 		{87AD1386-766B-4566-A7D8-17283CB0C7A7}.Release|x86.Build.0 = Release|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Debug|x64.Build.0 = Debug|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Debug|x86.Build.0 = Debug|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Release|x64.ActiveCfg = Release|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Release|x64.Build.0 = Release|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Release|x86.ActiveCfg = Release|Any CPU
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E}.Release|x86.Build.0 = Release|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Debug|x64.Build.0 = Debug|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Debug|x86.Build.0 = Debug|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Release|x64.ActiveCfg = Release|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Release|x64.Build.0 = Release|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Release|x86.ActiveCfg = Release|Any CPU
+		{38A9F533-C565-4496-B985-1154068BBC13}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -957,6 +989,10 @@ Global
 		{3EC2C9CE-58CC-61BE-842C-4C8F3AF81FD5} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{D3F7CB80-0AB5-04F0-5208-B42AAADC6F1F} = {3EC2C9CE-58CC-61BE-842C-4C8F3AF81FD5}
 		{87AD1386-766B-4566-A7D8-17283CB0C7A7} = {D3F7CB80-0AB5-04F0-5208-B42AAADC6F1F}
+		{84990F52-B29A-43AF-C636-84047E6CCA19} = {E2DAFCF0-33F6-DC23-C234-A984DBC23731}
+		{479ADB9D-5C88-4EAA-A5C3-DF65BF12475E} = {84990F52-B29A-43AF-C636-84047E6CCA19}
+		{3278895B-85C5-62BE-4557-3C898DD93581} = {3EC2C9CE-58CC-61BE-842C-4C8F3AF81FD5}
+		{38A9F533-C565-4496-B985-1154068BBC13} = {3278895B-85C5-62BE-4557-3C898DD93581}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DB4AAAF-489E-4B19-9A74-9368F8A91E16}

@@ -2,7 +2,7 @@
 
 This stage teaches how .NET programs are built, executed, observed, and optimized.
 
-Stage 4 is in progress today. Topic 01 is ready now, while the remaining runtime, memory, diagnostics, and concurrency topics are still planned.
+Stage 4 is in progress today. Topics 01 and 02 are ready now, while the remaining runtime, memory, diagnostics, and concurrency topics are still planned.
 
 ## Fastest Routes
 
@@ -11,8 +11,10 @@ Stage 4 is in progress today. Topic 01 is ready now, while the remaining runtime
 - Review the previous stage: [03 Productivity And Data Transformation](../03-productivity-and-data-transformation/README.md#how-to-use-this-stage)
 - Jump to this stage assets: [Topic And Asset Index](#topic-and-asset-index)
 - Open the first lesson: [01 Dotnet CLI SDK Build And Packaging Lesson](./01-dotnet-cli-sdk-build-and-packaging/lesson.md)
+- Open the current memory lesson: [02 Memory Model GC And Allocation Awareness Lesson](./02-memory-model-gc-and-allocation-awareness/lesson.md)
 - Open the first exercises: [01 Dotnet CLI SDK Build And Packaging Exercises](./01-dotnet-cli-sdk-build-and-packaging/exercises.md)
 - Open the first demo: [DotnetAcademy.DotnetCliBuildPackagingDemo](../../../src/04-runtime-tooling-and-diagnostics/01-dotnet-cli-sdk-build-and-packaging/DotnetAcademy.DotnetCliBuildPackagingDemo/)
+- Open the current memory demo: [DotnetAcademy.MemoryGcAllocationDemo](../../../src/04-runtime-tooling-and-diagnostics/02-memory-model-gc-and-allocation-awareness/DotnetAcademy.MemoryGcAllocationDemo/)
 - Continue to the next stage: [05 Data And Persistence](../05-data-and-persistence/README.md)
 
 ## Outcomes
@@ -47,10 +49,10 @@ Each Demo link opens a runnable reference implementation under `src/`.
 | Topic | Overview | Lesson | Exercises | Demo | Tests |
 | --- | --- | --- | --- | --- | --- |
 | 01 Dotnet CLI SDK Build And Packaging | [Overview](./01-dotnet-cli-sdk-build-and-packaging/README.md) | [Lesson](./01-dotnet-cli-sdk-build-and-packaging/lesson.md) | [Exercises](./01-dotnet-cli-sdk-build-and-packaging/exercises.md) | [Demo](../../../src/04-runtime-tooling-and-diagnostics/01-dotnet-cli-sdk-build-and-packaging/DotnetAcademy.DotnetCliBuildPackagingDemo/) | [Tests](../../../tests/04-runtime-tooling-and-diagnostics/01-dotnet-cli-sdk-build-and-packaging/DotnetAcademy.DotnetCliBuildPackagingDemo.Tests/) |
+| 02 Memory Model GC And Allocation Awareness | [Overview](./02-memory-model-gc-and-allocation-awareness/README.md) | [Lesson](./02-memory-model-gc-and-allocation-awareness/lesson.md) | [Exercises](./02-memory-model-gc-and-allocation-awareness/exercises.md) | [Demo](../../../src/04-runtime-tooling-and-diagnostics/02-memory-model-gc-and-allocation-awareness/DotnetAcademy.MemoryGcAllocationDemo/) | [Tests](../../../tests/04-runtime-tooling-and-diagnostics/02-memory-model-gc-and-allocation-awareness/DotnetAcademy.MemoryGcAllocationDemo.Tests/) |
 
 ## Remaining Planned Topics
 
-- 02 Memory model, GC, and allocation awareness
 - 02A Stack versus heap, LOH and POH, pooling, and ref safety
 - 03 Spans, buffers, and memory-sensitive APIs
 - 04 Logging, tracing, metrics, debugging, and profiling

@@ -70,7 +70,8 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] PLAT-07 Add sample data, assets, and fixtures conventions.
 - [x] PLAT-08 Create the integrated learning solution structure.
 - [x] S04-01 Create .NET CLI, SDK, build, and packaging topics.
-- [ ] S04-02 Create memory model, GC, and allocation awareness topics.
+- [x] S04-02 Create memory model, GC, and allocation awareness topics.
+- [ ] S04-02A Create stack versus heap, LOH and POH, pooling, and ref-safety topic.
 
 ## Stage Backlog
 
@@ -145,7 +146,7 @@ Goal: teach how .NET actually runs and how to inspect behavior.
 Backlog:
 
 - [x] S04-01 Create .NET CLI, SDK, build, and packaging topics.
-- [ ] S04-02 Create memory model, GC, and allocation awareness topics.
+- [x] S04-02 Create memory model, GC, and allocation awareness topics.
 - [ ] S04-02A Create stack versus heap, LOH and POH, pooling, and ref-safety topic.
 - [ ] S04-03 Create spans, buffers, and memory-sensitive API topics.
 - [ ] S04-04 Create logging, tracing, metrics, debugging, and profiling topics.

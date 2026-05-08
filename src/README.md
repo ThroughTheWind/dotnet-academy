@@ -14,6 +14,6 @@ This directory contains runnable demos and reference implementations aligned to 
 - Stage 1: [curriculum index](../docs/curriculum/01-foundations/README.md) with five topic demos in [01-foundations/](./01-foundations/).
 - Stage 2: [curriculum index](../docs/curriculum/02-csharp-core/README.md) with six topic demos plus the integrated [07-domain-modeling-demo/](./02-csharp-core/07-domain-modeling-demo/).
 - Stage 3: [curriculum index](../docs/curriculum/03-productivity-and-data-transformation/README.md) with six topic demos plus the integrated [06-integrated-transformation-sample/](./03-productivity-and-data-transformation/06-integrated-transformation-sample/).
-- Stage 4: [curriculum index](../docs/curriculum/04-runtime-tooling-and-diagnostics/README.md) with the first tooling demo in [04-runtime-tooling-and-diagnostics/](./04-runtime-tooling-and-diagnostics/).
+- Stage 4: [curriculum index](../docs/curriculum/04-runtime-tooling-and-diagnostics/README.md) with the first two runtime tooling demos in [04-runtime-tooling-and-diagnostics/](./04-runtime-tooling-and-diagnostics/).
 
 Most demos can be run from the repository root with `dotnet run --project <path-to-project>`.

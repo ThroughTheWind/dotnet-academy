@@ -130,14 +130,14 @@ The repository foundation is in place. Implemented so far:
 14. Repository validation now checks Markdown links, required curriculum topic files, and lesson frontmatter metadata in the CI validation workflow.
 15. Sample data and fixtures conventions now define `seed/`, `appsettings*.json`, and `fixtures/` usage, and repository validation enforces those locations and naming rules.
 16. The repository now treats `dotnet-academy.sln` as the authoritative integration solution for runnable demos, labs, and tests, and validation fails if a committed project drops out of that shared structure.
-17. Stage 4 is now in progress with the first runtime tooling topic bundle, a runnable CLI/build/packaging demo, learner starter assets, and automated tests.
+17. Stage 4 is now in progress with two topic bundles covering CLI/build workflow plus memory model, GC, and allocation awareness, each with runnable demos, learner starter assets, and automated tests.
 
 The next implementation steps are:
 
-1. Continue Stage 4 with memory model, GC, and allocation awareness.
-2. Add the stack-versus-heap, pooling, and ref-safety follow-up topic.
+1. Add the stack-versus-heap, LOH and POH, pooling, and ref-safety follow-up topic.
+2. Continue Stage 4 with spans, buffers, and memory-sensitive APIs.
 3. Add the benchmark and diagnostics sample projects after the Stage 4 core topics are in place.
 
-The next useful milestone is to establish the Stage 4 runtime and memory foundation before moving into diagnostics tooling and concurrency investigations.
+The next useful milestone is to complete the Stage 4 memory foundation before moving into diagnostics tooling and concurrency investigations.
 
 Use [docs/README.md](./docs/README.md) for learner navigation and [BACKLOG.md](./BACKLOG.md) for contributor execution order and stage-level completion tracking.
