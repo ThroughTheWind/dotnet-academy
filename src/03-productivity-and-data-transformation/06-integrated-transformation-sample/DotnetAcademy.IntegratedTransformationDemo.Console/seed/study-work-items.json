@@ -1,0 +1,16 @@
+[
+  {
+    "moduleName": "JSON exports",
+    "category": "data",
+    "sourceName": "seed archive",
+    "pendingSteps": 2,
+    "minutes": 45
+  },
+  {
+    "moduleName": "LINQ cleanup",
+    "category": "analysis",
+    "sourceName": "seed archive",
+    "pendingSteps": 1,
+    "minutes": 25
+  }
+]

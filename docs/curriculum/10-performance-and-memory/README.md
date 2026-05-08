@@ -2,6 +2,15 @@
 
 This stage focuses on measurement-driven optimization for APIs, applications, and core libraries.
 
+This stage is currently planned. Use this page as the stage overview until detailed lesson, exercise, demo, and lab links are added.
+
+## Fastest Routes
+
+- Learner start guide: [Start Learning](../../README.md#start-path)
+- Curriculum stage map: [Curriculum Index](../README.md#stage-map)
+- Review the previous stage: [09 Testing And Quality](../09-testing-and-quality/README.md)
+- Continue to the next stage: [11 Architecture And Delivery](../11-architecture-and-delivery/README.md)
+
 ## Outcomes
 
 - Measure performance before making changes.

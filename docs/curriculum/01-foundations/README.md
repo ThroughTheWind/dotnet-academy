@@ -2,10 +2,16 @@
 
 This stage introduces programming with modern C# and the .NET toolchain from a clean starting point.
 
-## Navigation
+## Fastest Routes
 
-- Curriculum index: [docs/curriculum/README.md](../README.md)
-- Stage lab: [06 Study Session Planner Lab](../../../labs/01-foundations/06-study-session-planner-lab/README.md)
+- Learner start guide: [Start Learning](../../README.md#start-path)
+- Curriculum stage map: [Curriculum Index](../README.md#stage-map)
+- Jump to this stage assets: [Topic And Asset Index](#topic-and-asset-index)
+- Open the first lesson: [01 Development Environment And CLI Lesson](./01-development-environment-and-cli/lesson.md)
+- Open the first exercises: [01 Development Environment And CLI Exercises](./01-development-environment-and-cli/exercises.md)
+- Open the first demo: [DotnetAcademy.CliBasicsDemo](../../../src/01-foundations/01-development-environment-and-cli/DotnetAcademy.CliBasicsDemo/)
+- Open the stage lab: [06 Study Session Planner Lab](../../../labs/01-foundations/06-study-session-planner-lab/README.md)
+- Continue to the next stage: [02 CSharp Core](../02-csharp-core/README.md#how-to-use-this-stage)
 
 ## Outcomes
 

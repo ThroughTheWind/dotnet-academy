@@ -2,12 +2,18 @@
 
 This stage builds the core language features needed to write maintainable real-world applications.
 
-## Navigation
+## Fastest Routes
 
-- Curriculum index: [docs/curriculum/README.md](../README.md)
-- Integrated demo: [07 Domain Modeling Demo](../../../src/02-csharp-core/07-domain-modeling-demo/README.md)
-- Stage exercise pack: [07 Reference And Value Semantics](../../../exercises/02-csharp-core/07-reference-and-value-semantics/README.md)
-- Stage lab: [08 Learning Track Domain Model Lab](../../../labs/02-csharp-core/08-learning-track-domain-model-lab/README.md)
+- Learner start guide: [Start Learning](../../README.md#start-path)
+- Curriculum stage map: [Curriculum Index](../README.md#stage-map)
+- Review the previous stage: [01 Foundations](../01-foundations/README.md#how-to-use-this-stage)
+- Jump to this stage assets: [Topic And Asset Index](#topic-and-asset-index)
+- Open the first lesson: [01 Classes And Objects Lesson](./01-classes-and-objects/lesson.md)
+- Open the first exercises: [01 Classes And Objects Exercises](./01-classes-and-objects/exercises.md)
+- Open the first demo: [DotnetAcademy.ClassesObjectsDemo](../../../src/02-csharp-core/01-classes-and-objects/DotnetAcademy.ClassesObjectsDemo/)
+- Open the integrated demo: [07 Domain Modeling Demo](../../../src/02-csharp-core/07-domain-modeling-demo/README.md)
+- Open the stage lab: [08 Learning Track Domain Model Lab](../../../labs/02-csharp-core/08-learning-track-domain-model-lab/README.md)
+- Continue to the next stage: [03 Productivity And Data Transformation](../03-productivity-and-data-transformation/README.md#how-to-use-this-stage)
 
 ## Outcomes
 

@@ -2,6 +2,15 @@
 
 This stage covers the decisions and tradeoffs that distinguish a senior-level .NET engineer.
 
+This stage is currently planned. Use this page as the stage overview until detailed lesson, exercise, demo, and lab links are added.
+
+## Fastest Routes
+
+- Learner start guide: [Start Learning](../../README.md#start-path)
+- Curriculum stage map: [Curriculum Index](../README.md#stage-map)
+- Review the previous stage: [10 Performance And Memory](../10-performance-and-memory/README.md)
+- Continue to the next stage: [12 Capstone](../12-capstone/README.md)
+
 ## Outcomes
 
 - Choose sensible architectural boundaries and patterns for the problem at hand.

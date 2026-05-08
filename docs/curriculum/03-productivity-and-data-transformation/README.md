@@ -2,9 +2,16 @@
 
 This stage focuses on the everyday language and library features that make .NET productive.
 
-## Navigation
+## Fastest Routes
 
-- Curriculum index: [docs/curriculum/README.md](../README.md)
+- Learner start guide: [Start Learning](../../README.md#start-path)
+- Curriculum stage map: [Curriculum Index](../README.md#stage-map)
+- Review the previous stage: [02 CSharp Core](../02-csharp-core/README.md#how-to-use-this-stage)
+- Jump to this stage assets: [Topic And Asset Index](#topic-and-asset-index)
+- Open the first lesson: [01 LINQ Fundamentals And Query Thinking Lesson](./01-linq-fundamentals-and-query-thinking/lesson.md)
+- Open the first exercises: [01 LINQ Fundamentals And Query Thinking Exercises](./01-linq-fundamentals-and-query-thinking/exercises.md)
+- Open the first demo: [DotnetAcademy.LinqQueryThinkingDemo](../../../src/03-productivity-and-data-transformation/01-linq-fundamentals-and-query-thinking/DotnetAcademy.LinqQueryThinkingDemo/)
+- Continue to the next stage: [04 Runtime Tooling And Diagnostics](../04-runtime-tooling-and-diagnostics/README.md)
 
 Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now. Integrated multi-topic assets are still planned.
 

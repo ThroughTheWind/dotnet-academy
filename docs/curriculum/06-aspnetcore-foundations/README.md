@@ -2,6 +2,15 @@
 
 This stage introduces the application host, request pipeline, and platform features behind ASP.NET Core applications.
 
+This stage is currently planned. Use this page as the stage overview until detailed lesson, exercise, demo, and lab links are added.
+
+## Fastest Routes
+
+- Learner start guide: [Start Learning](../../README.md#start-path)
+- Curriculum stage map: [Curriculum Index](../README.md#stage-map)
+- Review the previous stage: [05 Data And Persistence](../05-data-and-persistence/README.md)
+- Continue to the next stage: [07 Api Development](../07-api-development/README.md)
+
 ## Outcomes
 
 - Explain how an ASP.NET Core app starts, configures services, processes requests, and shuts down.

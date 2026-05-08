@@ -2,6 +2,15 @@
 
 This stage teaches how .NET programs are built, executed, observed, and optimized.
 
+This stage is currently planned. Use this page as the stage overview until detailed lesson, exercise, demo, and lab links are added.
+
+## Fastest Routes
+
+- Learner start guide: [Start Learning](../../README.md#start-path)
+- Curriculum stage map: [Curriculum Index](../README.md#stage-map)
+- Review the previous stage: [03 Productivity And Data Transformation](../03-productivity-and-data-transformation/README.md#how-to-use-this-stage)
+- Continue to the next stage: [05 Data And Persistence](../05-data-and-persistence/README.md)
+
 ## Outcomes
 
 - Explain the .NET SDK, build pipeline, package flow, and diagnostics toolchain.
