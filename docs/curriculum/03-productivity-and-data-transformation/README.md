@@ -9,12 +9,13 @@ This stage focuses on the everyday language and library features that make .NET 
 - Review the previous stage: [02 CSharp Core](../02-csharp-core/README.md#how-to-use-this-stage)
 - Jump to this stage assets: [Topic And Asset Index](#topic-and-asset-index)
 - Open the integrated sample: [06 Integrated Transformation Sample](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/README.md)
+- Open the stage exercise pack: [07 Imperative Versus LINQ Comparison](../../../exercises/03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/README.md)
 - Open the first lesson: [01 LINQ Fundamentals And Query Thinking Lesson](./01-linq-fundamentals-and-query-thinking/lesson.md)
 - Open the first exercises: [01 LINQ Fundamentals And Query Thinking Exercises](./01-linq-fundamentals-and-query-thinking/exercises.md)
 - Open the first demo: [DotnetAcademy.LinqQueryThinkingDemo](../../../src/03-productivity-and-data-transformation/01-linq-fundamentals-and-query-thinking/DotnetAcademy.LinqQueryThinkingDemo/)
 - Continue to the next stage: [04 Runtime Tooling And Diagnostics](../04-runtime-tooling-and-diagnostics/README.md)
 
-Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now, and the first integrated sample is ready now. Comparison exercises and the stage lab are still planned.
+Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now, the first integrated sample is ready now, and the first comparison exercise pack is ready now. The async flow comparison pack and the stage lab are still planned.
 
 ## Outcomes
 
@@ -27,6 +28,7 @@ Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A 
 - Work through the implemented topics in order.
 - For each implemented topic, read the overview and lesson first, attempt the exercises, then inspect the matching demo in `src/`.
 - Use the integrated demo after the core topics when you want one sample that combines files, configuration, collections, LINQ shaping, and asynchronous source loading.
+- Use the stage exercise pack after the core topics when you want to compare imperative and LINQ-based data shaping against the same requirements.
 - Treat the remaining planned topics as upcoming content rather than required next steps today.
 
 ## Topic Sequence
@@ -60,6 +62,11 @@ Each Demo link opens a runnable reference implementation under `src/`.
 - Console host: [DotnetAcademy.IntegratedTransformationDemo.Console](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo.Console/)
 - Tests: [DotnetAcademy.IntegratedTransformationDemo.Tests](../../../tests/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo.Tests/)
 
+## Stage Exercise Pack
+
+- [07 Imperative Versus LINQ Comparison](../../../exercises/03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/README.md) asks learners to solve the same digest-building problem once with explicit loops and once with a LINQ pipeline.
+- Workspace guidance: [workspace](../../../exercises/03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/workspace/README.md)
+
 ## Remaining Planned Topics
 
-- Comparison exercises and stage lab
+- Async flow comparison pack and stage lab

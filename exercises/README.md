@@ -13,6 +13,6 @@ This directory contains learner-facing exercises, starter materials, and exercis
 
 - Stage 1: [curriculum index](../docs/curriculum/01-foundations/README.md) with topic exercises for all five foundations topics.
 - Stage 2: [curriculum index](../docs/curriculum/02-csharp-core/README.md) with topic exercises for the six core topics plus the stage exercise pack in [02-csharp-core/07-reference-and-value-semantics/](./02-csharp-core/07-reference-and-value-semantics/).
-- Stage 3: [curriculum index](../docs/curriculum/03-productivity-and-data-transformation/README.md) with topic exercises through file I/O, JSON, and serialization.
+- Stage 3: [curriculum index](../docs/curriculum/03-productivity-and-data-transformation/README.md) with topic exercises through advanced async tradeoffs plus the stage exercise pack in [03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/](./03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/).
 
 Exercises should continue to map back to a stage and topic so learners can move between the curriculum docs and the practice assets without guessing.
