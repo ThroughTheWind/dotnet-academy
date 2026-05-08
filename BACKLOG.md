@@ -56,7 +56,10 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S02-06 Add exercises that force learners to choose between reference and value semantics appropriately.
 - [x] S02-07 Add one guided lab centered on designing a small domain model.
 - [x] S03-01 Create LINQ fundamentals and query thinking topics.
-- [ ] S03-02 Create collections and immutability tradeoffs topics.
+- [x] S03-02 Create collections and immutability tradeoffs topics.
+- [x] S03-02A Create immutable, read-only, and frozen collection tradeoffs topic.
+- [x] S03-03 Create file I/O, JSON, and serialization topics.
+- [ ] S03-04 Create configuration basics topic.
 - [ ] PLAT-06 Add automation for markdown and metadata validation.
 
 ## Stage Backlog
@@ -110,9 +113,9 @@ Goal: teach day-to-day .NET productivity patterns and data shaping.
 Backlog:
 
 - [x] S03-01 Create LINQ fundamentals and query thinking topics.
-- [ ] S03-02 Create collections and immutability tradeoffs topics.
-- [ ] S03-02A Create immutable, read-only, and frozen collection tradeoffs topic.
-- [ ] S03-03 Create file I/O, JSON, and serialization topics.
+- [x] S03-02 Create collections and immutability tradeoffs topics.
+- [x] S03-02A Create immutable, read-only, and frozen collection tradeoffs topic.
+- [x] S03-03 Create file I/O, JSON, and serialization topics.
 - [ ] S03-04 Create configuration basics topic.
 - [ ] S03-05 Create async and await foundations topic.
 - [ ] S03-05A Create cancellation, async streams, and `ValueTask` tradeoffs topic.

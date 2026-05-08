@@ -4,6 +4,8 @@ Dotnet Academy is a Markdown-first learning repository for mastering modern C#, 
 
 The repository is designed for iterative authoring with AI assistance, but every lesson, example, and exercise must stay runnable, reviewable, and maintainable by humans.
 
+If you are here to learn, start with [docs/README.md](./docs/README.md) and then continue into [Stage 1 Foundations](./docs/curriculum/01-foundations/README.md).
+
 ## Target Stack
 
 - .NET 10 LTS
@@ -49,19 +51,46 @@ The repository is designed for iterative authoring with AI assistance, but every
 - `src/` contains runnable demos and reference implementations.
 - `exercises/` contains learner tasks and starter projects.
 - `labs/` contains guided labs and capstone projects.
-- `tests/` contains automated tests for runnable samples and later integrated solutions.
+- `tests/` contains automated tests for runnable demos and later integrated solutions.
 - `.ai/` contains instructions for AI-assisted authoring so changes stay consistent.
 - `scripts/` and `.github/workflows/` keep the repository validated as it grows.
 
+## Learning Flow
+
+Use the repository in this order when a stage is implemented:
+
+1. Read the stage overview in `docs/curriculum/`.
+2. Read the lesson for a topic.
+3. Complete the topic exercises.
+4. Run the matching demo from `src/` when you want a runnable reference.
+5. Complete the stage lab in `labs/` when you are ready to combine multiple topics.
+
+Asset guide:
+
+- Lessons explain the concepts and the intended mental model.
+- Exercises give you practice work and starter material.
+- Demos in `src/` show a runnable reference implementation for one topic or one integrated sample.
+- Labs in `labs/` are learner projects that combine multiple topics and usually separate `starter/` from `solution/` assets.
+- Tests verify the reference implementations and integrated solutions.
+
 ## Getting Started
 
+### For Learners
+
 1. Install the .NET 10 SDK.
-2. Read `ROADMAP.md` for the staged learning path.
-3. Read `BACKLOG.md` for the implementation order and tracking model.
-4. Read `.ai/instructions.md` and `.ai/conventions.md` before authoring content.
-5. Use `docs/templates/` when creating new lessons or exercises.
-6. Use `./scripts/new-curriculum-topic.ps1` when creating a new topic skeleton.
-7. Run `./scripts/validate-repository.ps1` before committing structural changes.
+2. Open [docs/README.md](./docs/README.md).
+3. Start with [Stage 1 Foundations](./docs/curriculum/01-foundations/README.md) unless you already know the prerequisites.
+4. Move through each topic in order: overview, lesson, exercises, then the matching demo.
+5. Use the stage lab after you finish the topic sequence for that stage.
+
+### For Contributors And Maintainers
+
+1. Read [ROADMAP.md](./ROADMAP.md) for the full program scope.
+2. Read [BACKLOG.md](./BACKLOG.md) for implementation order and status tracking.
+3. Read [CONTRIBUTING.md](./CONTRIBUTING.md), [.ai/instructions.md](./.ai/instructions.md), and [.ai/conventions.md](./.ai/conventions.md) before authoring content.
+4. Use [docs/templates/](./docs/templates/) when creating new lessons or exercises.
+5. Use `./scripts/new-curriculum-topic.ps1` when creating a new topic skeleton.
+6. Run `./scripts/validate-repository.ps1` before committing structural changes.
 
 ## Current Status
 
@@ -71,7 +100,7 @@ The repository foundation is in place. Implemented so far:
 2. AI authoring guidance and reusable lesson and exercise templates.
 3. Stage-level curriculum folders and overviews.
 4. A topic scaffolding script and the first generated topic skeleton.
-5. Five complete Stage 1 topics with lesson bundles, runnable samples, learner starter assets, and verification.
+5. Five complete Stage 1 topics with lesson bundles, runnable demos, learner starter assets, and verification.
 6. A Stage 1 console solution with runnable demos and xUnit test projects wired into repository validation.
 7. Guided and micro exercises now cover the full Stage 1 topic set.
 8. The first integrated Stage 1 guided lab now exists with starter assets, a runnable reference implementation, and automated tests.
@@ -79,14 +108,14 @@ The repository foundation is in place. Implemented so far:
 10. A reusable review checklist now defines the baseline acceptance criteria for lessons, exercises, labs, and code samples.
 11. Issue and branch naming conventions now map repository work directly back to backlog items.
 12. Stage 2 is now complete with six complete topics, the first integrated domain-modeling demo, a dedicated semantics exercise pack, and a guided lab.
-13. Stage 3 now includes the first complete topic covering LINQ fundamentals and query thinking.
+13. Stage 3 now includes four complete topics covering LINQ fundamentals, collection choice, read-only versus immutable versus frozen collection tradeoffs, and file-based JSON serialization workflows.
 
 The next implementation steps are:
 
-1. Continue Stage 3 with collections and immutability tradeoffs.
+1. Continue Stage 3 with configuration basics.
 2. Add markdown and metadata validation automation.
 3. Define sample data and fixtures conventions.
 
-The next useful milestone is to deepen Stage 3 so the course can move from first-query basics into broader collection and data-transformation practice.
+The next useful milestone is to extend Stage 3 from file and serialization workflows into configuration basics so the course can move from local data files to application startup inputs and environment-driven behavior.
 
-Use `BACKLOG.md` as the source of truth for execution order and stage-level completion tracking.
+Use [docs/README.md](./docs/README.md) for learner navigation and [BACKLOG.md](./BACKLOG.md) for contributor execution order and stage-level completion tracking.

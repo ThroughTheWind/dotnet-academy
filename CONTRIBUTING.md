@@ -2,6 +2,8 @@
 
 Dotnet Academy is being built as a structured teaching repository. Changes should improve the learning path, preserve consistency, and keep examples runnable.
 
+This document is for contributors and maintainers. Learners should start with [docs/README.md](./docs/README.md) instead of using the contributor workflow.
+
 ## Rules
 
 - Read `.ai/instructions.md` and `.ai/conventions.md` before adding content.
@@ -21,6 +23,6 @@ Dotnet Academy is being built as a structured teaching repository. Changes shoul
 
 ## Before You Commit
 
-1. Run `./scripts/validate-repository.ps1`.
+1. Run `./scripts/validate-repository.ps1` so Markdown links, required scaffold files, builds, and tests are checked together.
 2. Check the relevant sections in `docs/templates/review-checklist.md` and confirm the asset meets them.
 3. Confirm that any new code samples build or are clearly marked as placeholders.

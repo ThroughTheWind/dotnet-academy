@@ -1,6 +1,6 @@
 # Tests
 
-This directory contains automated tests for runnable samples and, later, integrated solutions.
+This directory contains automated tests for runnable demos and, later, integrated solutions.
 
 ## Current Coverage
 
@@ -19,6 +19,9 @@ This directory contains automated tests for runnable samples and, later, integra
 - `tests/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo.Tests/` verifies the integrated Stage 2 domain-modeling sample across the shared domain project and console host.
 - `tests/02-csharp-core/08-learning-track-domain-model-lab/DotnetAcademy.LearningTrackLab.Tests/` verifies the Stage 2 guided lab reference implementation.
 - `tests/03-productivity-and-data-transformation/01-linq-fundamentals-and-query-thinking/DotnetAcademy.LinqQueryThinkingDemo.Tests/` verifies the first Stage 3 LINQ sample for filtering, ordering, grouping, and readable query composition.
+- `tests/03-productivity-and-data-transformation/02-collections-and-immutability-tradeoffs/DotnetAcademy.CollectionsTradeoffsDemo.Tests/` verifies the second Stage 3 sample for collection choice, keyed lookup, unique category tracking, and stable published snapshots.
+- `tests/03-productivity-and-data-transformation/02a-immutable-read-only-and-frozen-collection-tradeoffs/DotnetAcademy.ReadOnlyImmutableFrozenCollectionsDemo.Tests/` verifies the Stage 3 follow-up sample for live read-only views, immutable snapshots, and frozen read-heavy lookups.
+- `tests/03-productivity-and-data-transformation/03-file-io-json-and-serialization/DotnetAcademy.FileIoJsonSerializationDemo.Tests/` verifies the Stage 3 file I/O sample for reading seeded JSON, transforming it into export models, and writing generated JSON and text outputs.
 
 ## Conventions
 

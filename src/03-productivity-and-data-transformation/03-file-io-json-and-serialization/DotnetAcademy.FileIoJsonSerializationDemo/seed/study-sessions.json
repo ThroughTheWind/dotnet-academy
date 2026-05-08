@@ -1,0 +1,30 @@
+[
+  {
+    "sessionId": "SESSION-01",
+    "topic": "Read text with File.ReadAllText",
+    "category": "file io",
+    "minutes": 18,
+    "completed": true
+  },
+  {
+    "sessionId": "SESSION-02",
+    "topic": "Deserialize a JSON session export",
+    "category": "json",
+    "minutes": 14,
+    "completed": true
+  },
+  {
+    "sessionId": "SESSION-03",
+    "topic": "Write a report file with File.WriteAllLines",
+    "category": "file io",
+    "minutes": 24,
+    "completed": false
+  },
+  {
+    "sessionId": "SESSION-04",
+    "topic": "Serialize summary models with JsonSerializer",
+    "category": "serialization",
+    "minutes": 25,
+    "completed": true
+  }
+]

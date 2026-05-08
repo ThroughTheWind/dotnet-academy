@@ -2,6 +2,8 @@
 
 Use backlog IDs as the source of truth for issue and branch names so planning, implementation, and review stay aligned.
 
+This document is for contributors and maintainers. Learners should use [docs/README.md](../README.md) and do not need issue or branch naming rules to start the course.
+
 ## Issue Title Format
 
 Use this shape for issues:
