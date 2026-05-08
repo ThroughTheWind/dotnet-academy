@@ -137,6 +137,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-learning-track-domain-mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAcademy.LearningTrackLab.Tests", "tests\02-csharp-core\08-learning-track-domain-model-lab\DotnetAcademy.LearningTrackLab.Tests\DotnetAcademy.LearningTrackLab.Tests.csproj", "{7D468F8C-7636-4B9E-8B29-47C8F7338405}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-productivity-and-data-transformation", "03-productivity-and-data-transformation", "{E1CD993F-B883-E92C-777F-3C18ABA86BC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-linq-fundamentals-and-query-thinking", "01-linq-fundamentals-and-query-thinking", "{BDC1D0C2-D5D8-4775-7326-F605E5BF87B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAcademy.LinqQueryThinkingDemo", "src\03-productivity-and-data-transformation\01-linq-fundamentals-and-query-thinking\DotnetAcademy.LinqQueryThinkingDemo\DotnetAcademy.LinqQueryThinkingDemo.csproj", "{201D4BC2-194C-4643-B9D9-39B27109E8DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-productivity-and-data-transformation", "03-productivity-and-data-transformation", "{5EF5CC93-B804-1E3F-540B-20CFA20728E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-linq-fundamentals-and-query-thinking", "01-linq-fundamentals-and-query-thinking", "{A9D4FEB8-0920-B98D-97F4-43377EBB55E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAcademy.LinqQueryThinkingDemo.Tests", "tests\03-productivity-and-data-transformation\01-linq-fundamentals-and-query-thinking\DotnetAcademy.LinqQueryThinkingDemo.Tests\DotnetAcademy.LinqQueryThinkingDemo.Tests.csproj", "{39DB313A-03F4-4669-B75F-421941C95F25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -495,6 +507,30 @@ Global
 		{7D468F8C-7636-4B9E-8B29-47C8F7338405}.Release|x64.Build.0 = Release|Any CPU
 		{7D468F8C-7636-4B9E-8B29-47C8F7338405}.Release|x86.ActiveCfg = Release|Any CPU
 		{7D468F8C-7636-4B9E-8B29-47C8F7338405}.Release|x86.Build.0 = Release|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Debug|x86.Build.0 = Debug|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Release|x64.ActiveCfg = Release|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Release|x64.Build.0 = Release|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD}.Release|x86.Build.0 = Release|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Debug|x64.Build.0 = Debug|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Debug|x86.Build.0 = Debug|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Release|x64.ActiveCfg = Release|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Release|x64.Build.0 = Release|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Release|x86.ActiveCfg = Release|Any CPU
+		{39DB313A-03F4-4669-B75F-421941C95F25}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -564,6 +600,12 @@ Global
 		{0AB652D0-A857-4232-ADC3-D2F23EC17992} = {8BADD51D-9CE9-2DBD-F880-A5A7EB5CD139}
 		{55E25B19-D8BE-500A-A52A-E54B99309FDE} = {05637657-7D44-8666-35DC-4229375EA4A8}
 		{7D468F8C-7636-4B9E-8B29-47C8F7338405} = {55E25B19-D8BE-500A-A52A-E54B99309FDE}
+		{E1CD993F-B883-E92C-777F-3C18ABA86BC6} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{BDC1D0C2-D5D8-4775-7326-F605E5BF87B7} = {E1CD993F-B883-E92C-777F-3C18ABA86BC6}
+		{201D4BC2-194C-4643-B9D9-39B27109E8DD} = {BDC1D0C2-D5D8-4775-7326-F605E5BF87B7}
+		{5EF5CC93-B804-1E3F-540B-20CFA20728E6} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{A9D4FEB8-0920-B98D-97F4-43377EBB55E4} = {5EF5CC93-B804-1E3F-540B-20CFA20728E6}
+		{39DB313A-03F4-4669-B75F-421941C95F25} = {A9D4FEB8-0920-B98D-97F4-43377EBB55E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DB4AAAF-489E-4B19-9A74-9368F8A91E16}

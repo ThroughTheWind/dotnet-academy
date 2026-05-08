@@ -18,6 +18,7 @@ This directory contains automated tests for runnable samples and, later, integra
 - `tests/02-csharp-core/06-lambdas-delegates-events-and-pattern-matching/DotnetAcademy.LambdasDelegatesEventsPatternMatchingDemo.Tests/` verifies the Stage 2 behavior sample for lambdas, delegates, events, and pattern matching.
 - `tests/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo.Tests/` verifies the integrated Stage 2 domain-modeling sample across the shared domain project and console host.
 - `tests/02-csharp-core/08-learning-track-domain-model-lab/DotnetAcademy.LearningTrackLab.Tests/` verifies the Stage 2 guided lab reference implementation.
+- `tests/03-productivity-and-data-transformation/01-linq-fundamentals-and-query-thinking/DotnetAcademy.LinqQueryThinkingDemo.Tests/` verifies the first Stage 3 LINQ sample for filtering, ordering, grouping, and readable query composition.
 
 ## Conventions
 

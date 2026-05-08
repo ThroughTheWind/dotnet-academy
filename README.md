@@ -79,13 +79,14 @@ The repository foundation is in place. Implemented so far:
 10. A reusable review checklist now defines the baseline acceptance criteria for lessons, exercises, labs, and code samples.
 11. Issue and branch naming conventions now map repository work directly back to backlog items.
 12. Stage 2 is now complete with six complete topics, the first integrated domain-modeling demo, a dedicated semantics exercise pack, and a guided lab.
+13. Stage 3 now includes the first complete topic covering LINQ fundamentals and query thinking.
 
 The next implementation steps are:
 
-1. Start Stage 3 with LINQ fundamentals and query thinking.
+1. Continue Stage 3 with collections and immutability tradeoffs.
 2. Add markdown and metadata validation automation.
 3. Define sample data and fixtures conventions.
 
-The next useful milestone is to start Stage 3 so the course can move from core language mechanics into day-to-day data transformation and async workflow patterns.
+The next useful milestone is to deepen Stage 3 so the course can move from first-query basics into broader collection and data-transformation practice.
 
 Use `BACKLOG.md` as the source of truth for execution order and stage-level completion tracking.
