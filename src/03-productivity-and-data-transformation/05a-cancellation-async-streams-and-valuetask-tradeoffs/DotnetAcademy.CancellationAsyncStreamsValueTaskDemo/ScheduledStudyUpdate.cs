@@ -1,0 +1,3 @@
+namespace DotnetAcademy.CancellationAsyncStreamsValueTaskDemo;
+
+public sealed record ScheduledStudyUpdate(StudyUpdate Update, int DelayMilliseconds);

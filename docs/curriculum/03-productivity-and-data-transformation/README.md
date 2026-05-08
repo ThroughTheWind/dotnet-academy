@@ -6,7 +6,7 @@ This stage focuses on the everyday language and library features that make .NET 
 
 - Curriculum index: [docs/curriculum/README.md](../README.md)
 
-Stage 3 is partially implemented today. Topics 01, 02, 02A, and 03 are ready now. Configuration and async topics are still planned.
+Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now. Integrated multi-topic assets are still planned.
 
 ## Outcomes
 
@@ -28,6 +28,7 @@ Stage 3 is partially implemented today. Topics 01, 02, 02A, and 03 are ready now
 - 03 File I/O and serialization
 - 04 Configuration basics
 - 05 Async and await foundations
+- 05A Cancellation, async streams, and `ValueTask` tradeoffs
 
 ## Topic And Asset Index
 
@@ -39,8 +40,10 @@ Each Demo link opens a runnable reference implementation under `src/`.
 | 02 Collections And Immutability Tradeoffs | [Overview](./02-collections-and-immutability-tradeoffs/README.md) | [Lesson](./02-collections-and-immutability-tradeoffs/lesson.md) | [Exercises](./02-collections-and-immutability-tradeoffs/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/02-collections-and-immutability-tradeoffs/DotnetAcademy.CollectionsTradeoffsDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/02-collections-and-immutability-tradeoffs/DotnetAcademy.CollectionsTradeoffsDemo.Tests/) |
 | 02A Immutable Read Only And Frozen Collection Tradeoffs | [Overview](./02a-immutable-read-only-and-frozen-collection-tradeoffs/README.md) | [Lesson](./02a-immutable-read-only-and-frozen-collection-tradeoffs/lesson.md) | [Exercises](./02a-immutable-read-only-and-frozen-collection-tradeoffs/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/02a-immutable-read-only-and-frozen-collection-tradeoffs/DotnetAcademy.ReadOnlyImmutableFrozenCollectionsDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/02a-immutable-read-only-and-frozen-collection-tradeoffs/DotnetAcademy.ReadOnlyImmutableFrozenCollectionsDemo.Tests/) |
 | 03 File IO JSON And Serialization | [Overview](./03-file-io-json-and-serialization/README.md) | [Lesson](./03-file-io-json-and-serialization/lesson.md) | [Exercises](./03-file-io-json-and-serialization/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/03-file-io-json-and-serialization/DotnetAcademy.FileIoJsonSerializationDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/03-file-io-json-and-serialization/DotnetAcademy.FileIoJsonSerializationDemo.Tests/) |
+| 04 Configuration Basics | [Overview](./04-configuration-basics/README.md) | [Lesson](./04-configuration-basics/lesson.md) | [Exercises](./04-configuration-basics/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/04-configuration-basics/DotnetAcademy.ConfigurationBasicsDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/04-configuration-basics/DotnetAcademy.ConfigurationBasicsDemo.Tests/) |
+| 05 Async And Await Foundations | [Overview](./05-async-and-await-foundations/README.md) | [Lesson](./05-async-and-await-foundations/lesson.md) | [Exercises](./05-async-and-await-foundations/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/05-async-and-await-foundations/DotnetAcademy.AsyncAwaitFoundationsDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/05-async-and-await-foundations/DotnetAcademy.AsyncAwaitFoundationsDemo.Tests/) |
+| 05A Cancellation Async Streams And ValueTask Tradeoffs | [Overview](./05a-cancellation-async-streams-and-valuetask-tradeoffs/README.md) | [Lesson](./05a-cancellation-async-streams-and-valuetask-tradeoffs/lesson.md) | [Exercises](./05a-cancellation-async-streams-and-valuetask-tradeoffs/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/05a-cancellation-async-streams-and-valuetask-tradeoffs/DotnetAcademy.CancellationAsyncStreamsValueTaskDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/05a-cancellation-async-streams-and-valuetask-tradeoffs/DotnetAcademy.CancellationAsyncStreamsValueTaskDemo.Tests/) |
 
 ## Remaining Planned Topics
 
-- Configuration basics
-- Async, await, cancellation, async streams, and `ValueTask` foundations
+- Integrated transformation sample, comparison exercises, and stage lab

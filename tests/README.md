@@ -22,6 +22,9 @@ This directory contains automated tests for runnable demos and, later, integrate
 - `tests/03-productivity-and-data-transformation/02-collections-and-immutability-tradeoffs/DotnetAcademy.CollectionsTradeoffsDemo.Tests/` verifies the second Stage 3 sample for collection choice, keyed lookup, unique category tracking, and stable published snapshots.
 - `tests/03-productivity-and-data-transformation/02a-immutable-read-only-and-frozen-collection-tradeoffs/DotnetAcademy.ReadOnlyImmutableFrozenCollectionsDemo.Tests/` verifies the Stage 3 follow-up sample for live read-only views, immutable snapshots, and frozen read-heavy lookups.
 - `tests/03-productivity-and-data-transformation/03-file-io-json-and-serialization/DotnetAcademy.FileIoJsonSerializationDemo.Tests/` verifies the Stage 3 file I/O sample for reading seeded JSON, transforming it into export models, and writing generated JSON and text outputs.
+- `tests/03-productivity-and-data-transformation/04-configuration-basics/DotnetAcademy.ConfigurationBasicsDemo.Tests/` verifies the Stage 3 configuration sample for layered JSON settings, later-source overrides, binding, and validation.
+- `tests/03-productivity-and-data-transformation/05-async-and-await-foundations/DotnetAcademy.AsyncAwaitFoundationsDemo.Tests/` verifies the Stage 3 async sample for `Task<T>`, `await`, and `Task.WhenAll` over independent sources.
+- `tests/03-productivity-and-data-transformation/05a-cancellation-async-streams-and-valuetask-tradeoffs/DotnetAcademy.CancellationAsyncStreamsValueTaskDemo.Tests/` verifies the Stage 3 advanced async sample for cooperative cancellation, `await foreach`, and narrow `ValueTask<T>` cache usage.
 
 ## Conventions
 

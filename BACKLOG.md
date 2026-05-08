@@ -59,7 +59,10 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S03-02 Create collections and immutability tradeoffs topics.
 - [x] S03-02A Create immutable, read-only, and frozen collection tradeoffs topic.
 - [x] S03-03 Create file I/O, JSON, and serialization topics.
-- [ ] S03-04 Create configuration basics topic.
+- [x] S03-04 Create configuration basics topic.
+- [x] S03-05 Create async and await foundations topic.
+- [x] S03-05A Create cancellation, async streams, and `ValueTask` tradeoffs topic.
+- [ ] S03-06 Add a sample app that transforms and persists data from multiple sources.
 - [ ] PLAT-06 Add automation for markdown and metadata validation.
 
 ## Stage Backlog
@@ -116,9 +119,9 @@ Backlog:
 - [x] S03-02 Create collections and immutability tradeoffs topics.
 - [x] S03-02A Create immutable, read-only, and frozen collection tradeoffs topic.
 - [x] S03-03 Create file I/O, JSON, and serialization topics.
-- [ ] S03-04 Create configuration basics topic.
-- [ ] S03-05 Create async and await foundations topic.
-- [ ] S03-05A Create cancellation, async streams, and `ValueTask` tradeoffs topic.
+- [x] S03-04 Create configuration basics topic.
+- [x] S03-05 Create async and await foundations topic.
+- [x] S03-05A Create cancellation, async streams, and `ValueTask` tradeoffs topic.
 - [ ] S03-06 Add a sample app that transforms and persists data from multiple sources.
 - [ ] S03-07 Add exercises that compare imperative and LINQ-based implementations.
 - [ ] S03-07A Add exercises that compare synchronous, asynchronous, and streaming data flows.
