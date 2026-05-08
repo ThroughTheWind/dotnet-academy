@@ -78,14 +78,14 @@ The repository foundation is in place. Implemented so far:
 9. A curriculum index now links stage overviews to implemented Stage 1 lessons, exercises, demos, tests, and lab assets.
 10. A reusable review checklist now defines the baseline acceptance criteria for lessons, exercises, labs, and code samples.
 11. Issue and branch naming conventions now map repository work directly back to backlog items.
-12. Stage 2 now includes four complete topics covering object modeling plus the first abstraction topics.
+12. Stage 2 now includes six complete topics covering object modeling, abstractions, reusable code, and core behavior features.
 
 The next implementation steps are:
 
-1. Continue the Stage 2 core C# sequence with generics, collections, and exceptions.
+1. Add the Stage 2 demo solution showing domain modeling and clean abstractions.
 2. Add markdown and metadata validation automation.
 3. Define sample data and fixtures conventions.
 
-The next useful milestone is to extend Stage 2 into reusable code patterns so the type-modeling work becomes more practical.
+The next useful milestone is to add the integrated Stage 2 demo, exercises, and lab so the core C# path becomes a complete end-to-end slice.
 
 Use `BACKLOG.md` as the source of truth for execution order and stage-level completion tracking.

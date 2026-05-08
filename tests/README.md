@@ -14,6 +14,8 @@ This directory contains automated tests for runnable samples and, later, integra
 - `tests/02-csharp-core/02-records-structs-and-enums/DotnetAcademy.RecordsStructsEnumsDemo.Tests/` verifies the second Stage 2 object-modeling sample.
 - `tests/02-csharp-core/03-interfaces-and-composition/DotnetAcademy.InterfacesCompositionDemo.Tests/` verifies the first Stage 2 abstraction sample centered on interfaces and composition.
 - `tests/02-csharp-core/04-inheritance-basics/DotnetAcademy.InheritanceBasicsDemo.Tests/` verifies the Stage 2 inheritance basics sample.
+- `tests/02-csharp-core/05-generics-collections-and-exceptions/DotnetAcademy.GenericsCollectionsExceptionsDemo.Tests/` verifies the Stage 2 reusable code sample for generics, collections, and exception handling.
+- `tests/02-csharp-core/06-lambdas-delegates-events-and-pattern-matching/DotnetAcademy.LambdasDelegatesEventsPatternMatchingDemo.Tests/` verifies the Stage 2 behavior sample for lambdas, delegates, events, and pattern matching.
 
 ## Conventions
 

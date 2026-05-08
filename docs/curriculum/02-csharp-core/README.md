@@ -18,8 +18,8 @@ This stage builds the core language features needed to write maintainable real-w
 - 02 Records, structs, and enums
 - 03 Interfaces and dependency boundaries
 - 04 Inheritance basics
-- 05 Generics and collections
-- 06 Exceptions, lambdas, delegates, and events
+- 05 Generics, collections, and exceptions
+- 06 Lambdas, delegates, events, and pattern matching
 
 ## Topic And Asset Index
 
@@ -29,3 +29,5 @@ This stage builds the core language features needed to write maintainable real-w
 | 02 Records Structs And Enums | [Overview](./02-records-structs-and-enums/README.md) | [Lesson](./02-records-structs-and-enums/lesson.md) | [Exercises](./02-records-structs-and-enums/exercises.md) | [Sample](../../../src/02-csharp-core/02-records-structs-and-enums/DotnetAcademy.RecordsStructsEnumsDemo/) | [Tests](../../../tests/02-csharp-core/02-records-structs-and-enums/DotnetAcademy.RecordsStructsEnumsDemo.Tests/) |
 | 03 Interfaces And Composition | [Overview](./03-interfaces-and-composition/README.md) | [Lesson](./03-interfaces-and-composition/lesson.md) | [Exercises](./03-interfaces-and-composition/exercises.md) | [Sample](../../../src/02-csharp-core/03-interfaces-and-composition/DotnetAcademy.InterfacesCompositionDemo/) | [Tests](../../../tests/02-csharp-core/03-interfaces-and-composition/DotnetAcademy.InterfacesCompositionDemo.Tests/) |
 | 04 Inheritance Basics | [Overview](./04-inheritance-basics/README.md) | [Lesson](./04-inheritance-basics/lesson.md) | [Exercises](./04-inheritance-basics/exercises.md) | [Sample](../../../src/02-csharp-core/04-inheritance-basics/DotnetAcademy.InheritanceBasicsDemo/) | [Tests](../../../tests/02-csharp-core/04-inheritance-basics/DotnetAcademy.InheritanceBasicsDemo.Tests/) |
+| 05 Generics Collections And Exceptions | [Overview](./05-generics-collections-and-exceptions/README.md) | [Lesson](./05-generics-collections-and-exceptions/lesson.md) | [Exercises](./05-generics-collections-and-exceptions/exercises.md) | [Sample](../../../src/02-csharp-core/05-generics-collections-and-exceptions/DotnetAcademy.GenericsCollectionsExceptionsDemo/) | [Tests](../../../tests/02-csharp-core/05-generics-collections-and-exceptions/DotnetAcademy.GenericsCollectionsExceptionsDemo.Tests/) |
+| 06 Lambdas Delegates Events And Pattern Matching | [Overview](./06-lambdas-delegates-events-and-pattern-matching/README.md) | [Lesson](./06-lambdas-delegates-events-and-pattern-matching/lesson.md) | [Exercises](./06-lambdas-delegates-events-and-pattern-matching/exercises.md) | [Sample](../../../src/02-csharp-core/06-lambdas-delegates-events-and-pattern-matching/DotnetAcademy.LambdasDelegatesEventsPatternMatchingDemo/) | [Tests](../../../tests/02-csharp-core/06-lambdas-delegates-events-and-pattern-matching/DotnetAcademy.LambdasDelegatesEventsPatternMatchingDemo.Tests/) |
