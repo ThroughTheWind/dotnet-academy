@@ -52,7 +52,8 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S02-02 Create abstraction topics: interfaces, inheritance, composition.
 - [x] S02-03 Create reusable code topics: generics, collections, exceptions.
 - [x] S02-04 Create behavior topics: delegates, events, lambdas, pattern matching.
-- [ ] S02-05 Add a demo solution showing domain modeling and clean abstractions.
+- [x] S02-05 Add a demo solution showing domain modeling and clean abstractions.
+- [ ] S02-06 Add exercises that force learners to choose between reference and value semantics appropriately.
 - [ ] PLAT-06 Add automation for markdown and metadata validation.
 
 ## Stage Backlog
@@ -90,7 +91,7 @@ Backlog:
 - [x] S02-02 Create abstraction topics: interfaces, inheritance, composition.
 - [x] S02-03 Create reusable code topics: generics, collections, exceptions.
 - [x] S02-04 Create behavior topics: delegates, events, lambdas, pattern matching.
-- [ ] S02-05 Add a demo solution showing domain modeling and clean abstractions.
+- [x] S02-05 Add a demo solution showing domain modeling and clean abstractions.
 - [ ] S02-06 Add exercises that force learners to choose between reference and value semantics appropriately.
 - [ ] S02-07 Add one guided lab centered on designing a small domain model.
 

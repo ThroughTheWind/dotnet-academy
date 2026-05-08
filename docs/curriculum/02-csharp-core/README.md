@@ -5,6 +5,7 @@ This stage builds the core language features needed to write maintainable real-w
 ## Navigation
 
 - Curriculum index: [docs/curriculum/README.md](../README.md)
+- Integrated demo: [07 Domain Modeling Demo](../../../src/02-csharp-core/07-domain-modeling-demo/README.md)
 
 ## Outcomes
 
@@ -31,3 +32,10 @@ This stage builds the core language features needed to write maintainable real-w
 | 04 Inheritance Basics | [Overview](./04-inheritance-basics/README.md) | [Lesson](./04-inheritance-basics/lesson.md) | [Exercises](./04-inheritance-basics/exercises.md) | [Sample](../../../src/02-csharp-core/04-inheritance-basics/DotnetAcademy.InheritanceBasicsDemo/) | [Tests](../../../tests/02-csharp-core/04-inheritance-basics/DotnetAcademy.InheritanceBasicsDemo.Tests/) |
 | 05 Generics Collections And Exceptions | [Overview](./05-generics-collections-and-exceptions/README.md) | [Lesson](./05-generics-collections-and-exceptions/lesson.md) | [Exercises](./05-generics-collections-and-exceptions/exercises.md) | [Sample](../../../src/02-csharp-core/05-generics-collections-and-exceptions/DotnetAcademy.GenericsCollectionsExceptionsDemo/) | [Tests](../../../tests/02-csharp-core/05-generics-collections-and-exceptions/DotnetAcademy.GenericsCollectionsExceptionsDemo.Tests/) |
 | 06 Lambdas Delegates Events And Pattern Matching | [Overview](./06-lambdas-delegates-events-and-pattern-matching/README.md) | [Lesson](./06-lambdas-delegates-events-and-pattern-matching/lesson.md) | [Exercises](./06-lambdas-delegates-events-and-pattern-matching/exercises.md) | [Sample](../../../src/02-csharp-core/06-lambdas-delegates-events-and-pattern-matching/DotnetAcademy.LambdasDelegatesEventsPatternMatchingDemo/) | [Tests](../../../tests/02-csharp-core/06-lambdas-delegates-events-and-pattern-matching/DotnetAcademy.LambdasDelegatesEventsPatternMatchingDemo.Tests/) |
+
+## Integrated Demo
+
+- [07 Domain Modeling Demo](../../../src/02-csharp-core/07-domain-modeling-demo/README.md) combines the Stage 2 language features into one small multi-project sample.
+- Domain project: [DotnetAcademy.DomainModelingDemo](../../../src/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo/)
+- Console host: [DotnetAcademy.DomainModelingDemo.Console](../../../src/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo.Console/)
+- Tests: [DotnetAcademy.DomainModelingDemo.Tests](../../../tests/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo.Tests/)

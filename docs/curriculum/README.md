@@ -28,7 +28,7 @@ This index links each stage to its overview and, when available, to the underlyi
 ## Current Implemented Assets
 
 - Stage 1 includes five complete topic bundles, five runnable sample apps, five test projects, and one guided lab.
-- Stage 2 now includes six complete topic bundles covering object modeling, abstractions, reusable code, and core behavior features.
+- Stage 2 now includes six complete topic bundles plus the first integrated domain-modeling demo.
 - The first integrated lab is [06 Study Session Planner Lab](../../../labs/01-foundations/06-study-session-planner-lab/README.md).
 - The stage-level asset maps live in [01 Foundations](./01-foundations/README.md) and [02 CSharp Core](./02-csharp-core/README.md).
 
