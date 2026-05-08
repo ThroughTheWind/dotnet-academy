@@ -151,6 +151,165 @@ function Test-MarkdownLinks {
   }
 }
 
+function Test-CurriculumTopicBundles {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$RootPath
+  )
+
+  $curriculumRoot = Join-Path $RootPath 'docs/curriculum'
+  $requiredTopicFiles = @('README.md', 'lesson.md', 'exercises.md', 'checklist.md')
+  $requiredFrontmatterKeys = @('title', 'stage', 'topic', 'level', 'estimated_hours', 'prerequisites', 'learning_outcomes')
+  $errors = New-Object System.Collections.Generic.List[string]
+
+  if (-not (Test-Path -LiteralPath $curriculumRoot)) {
+    return
+  }
+
+  $stageDirectories = Get-ChildItem -Path $curriculumRoot -Directory |
+    Where-Object { $_.Name -match '^\d{2}-[a-z0-9-]+$' }
+
+  foreach ($stageDirectory in $stageDirectories) {
+    $topicDirectories = Get-ChildItem -Path $stageDirectory.FullName -Directory |
+      Where-Object { $_.Name -match '^\d{2}[a-z]?-[a-z0-9-]+$' }
+
+    foreach ($topicDirectory in $topicDirectories) {
+      $missingFiles = @(
+        $requiredTopicFiles | Where-Object {
+          -not (Test-Path -LiteralPath (Join-Path $topicDirectory.FullName $_))
+        }
+      )
+
+      if ($missingFiles.Count -gt 0) {
+        $relativeTopicDirectory = Get-RepositoryRelativePath -BasePath $RootPath -TargetPath $topicDirectory.FullName
+        $errors.Add("${relativeTopicDirectory} -> missing required topic files: $($missingFiles -join ', ')")
+        continue
+      }
+
+      $lessonPath = Join-Path $topicDirectory.FullName 'lesson.md'
+      $lessonLines = Get-Content -Path $lessonPath
+      $relativeLessonPath = Get-RepositoryRelativePath -BasePath $RootPath -TargetPath $lessonPath
+
+      if ($lessonLines.Count -eq 0 -or $lessonLines[0].Trim() -ne '---') {
+        $errors.Add("${relativeLessonPath} -> lesson is missing the opening YAML frontmatter delimiter")
+        continue
+      }
+
+      $metadataKeys = New-Object System.Collections.Generic.HashSet[string]([System.StringComparer]::OrdinalIgnoreCase)
+      $frontmatter = @{}
+      $hasClosingDelimiter = $false
+
+      for ($lineIndex = 1; $lineIndex -lt $lessonLines.Count; $lineIndex++) {
+        $line = $lessonLines[$lineIndex]
+
+        if ($line.Trim() -eq '---') {
+          $hasClosingDelimiter = $true
+          break
+        }
+
+        if ($line -match '^([a-z_]+):\s*(.*)$') {
+          $key = $matches[1]
+          $value = $matches[2].Trim()
+          [void]$metadataKeys.Add($key)
+          $frontmatter[$key] = $value
+        }
+      }
+
+      if (-not $hasClosingDelimiter) {
+        $errors.Add("${relativeLessonPath} -> lesson frontmatter is missing the closing YAML delimiter")
+        continue
+      }
+
+      $missingKeys = @($requiredFrontmatterKeys | Where-Object { -not $metadataKeys.Contains($_) })
+      if ($missingKeys.Count -gt 0) {
+        $errors.Add("${relativeLessonPath} -> lesson frontmatter is missing required keys: $($missingKeys -join ', ')")
+      }
+
+      if ($frontmatter.ContainsKey('stage') -and $frontmatter['stage'] -ne $stageDirectory.Name) {
+        $errors.Add("${relativeLessonPath} -> lesson frontmatter stage '$($frontmatter['stage'])' does not match folder '$($stageDirectory.Name)'")
+      }
+
+      if ($frontmatter.ContainsKey('topic') -and $frontmatter['topic'] -ne $topicDirectory.Name) {
+        $errors.Add("${relativeLessonPath} -> lesson frontmatter topic '$($frontmatter['topic'])' does not match folder '$($topicDirectory.Name)'")
+      }
+    }
+  }
+
+  if ($errors.Count -gt 0) {
+    throw "Curriculum metadata validation failed:`n$($errors -join [Environment]::NewLine)"
+  }
+}
+
+function Test-SampleDataConventions {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$RootPath
+  )
+
+  $assetRoots = @(
+    (Join-Path $RootPath 'src'),
+    (Join-Path $RootPath 'labs'),
+    (Join-Path $RootPath 'tests')
+  ) | Where-Object { Test-Path -LiteralPath $_ }
+
+  $projectDirectories = New-Object System.Collections.Generic.HashSet[string]([System.StringComparer]::OrdinalIgnoreCase)
+  $errors = New-Object System.Collections.Generic.List[string]
+
+  foreach ($project in Get-ChildItem -Path $RootPath -Filter *.csproj -Recurse -File | Where-Object { $_.FullName -notmatch '[\\/](bin|obj)[\\/]' }) {
+    [void]$projectDirectories.Add((Split-Path -Path $project.FullName -Parent))
+  }
+
+  foreach ($assetRoot in $assetRoots) {
+    $dataFiles = Get-ChildItem -Path $assetRoot -Recurse -File |
+      Where-Object {
+        $_.FullName -notmatch '[\\/](bin|obj)[\\/]' -and $_.Extension -in '.json', '.csv', '.txt'
+      }
+
+    foreach ($dataFile in $dataFiles) {
+      $relativePath = Get-RepositoryRelativePath -BasePath $RootPath -TargetPath $dataFile.FullName
+      $relativeSegments = $relativePath -split '[\\/]'
+      $fileDirectory = Split-Path -Path $dataFile.FullName -Parent
+
+      if ($dataFile.Name -match '^appsettings(\.[A-Za-z0-9-]+)?\.json$') {
+        if (-not $projectDirectories.Contains($fileDirectory)) {
+          $errors.Add("${relativePath} -> appsettings files must live next to the owning project file")
+        }
+
+        continue
+      }
+
+      $conventionDirectory = $null
+      if ($relativeSegments -contains 'seed') {
+        $conventionDirectory = 'seed'
+      }
+      elseif ($relativeSegments -contains 'fixtures') {
+        $conventionDirectory = 'fixtures'
+      }
+
+      if ($null -eq $conventionDirectory) {
+        $errors.Add("${relativePath} -> committed data files must live under seed/ or fixtures/ unless they are appsettings*.json")
+        continue
+      }
+
+      $conventionIndex = [Array]::IndexOf($relativeSegments, $conventionDirectory)
+      for ($segmentIndex = $conventionIndex + 1; $segmentIndex -lt ($relativeSegments.Length - 1); $segmentIndex++) {
+        if ($relativeSegments[$segmentIndex] -notmatch '^[a-z0-9]+(-[a-z0-9]+)*$') {
+          $errors.Add("${relativePath} -> nested directories under ${conventionDirectory}/ must use lowercase kebab-case")
+          break
+        }
+      }
+
+      if ($dataFile.BaseName -notmatch '^[a-z0-9]+(-[a-z0-9]+)*$') {
+        $errors.Add("${relativePath} -> files under ${conventionDirectory}/ must use lowercase kebab-case names")
+      }
+    }
+  }
+
+  if ($errors.Count -gt 0) {
+    throw "Sample data and fixtures validation failed:`n$($errors -join [Environment]::NewLine)"
+  }
+}
+
 $requiredPaths = @(
   'README.md',
   'ROADMAP.md',
@@ -160,6 +319,7 @@ $requiredPaths = @(
   'docs/README.md',
   'docs/curriculum/README.md',
   'docs/process/issue-and-branch-naming.md',
+  'docs/process/sample-data-and-fixtures.md',
   'docs/templates/lesson-template.md',
   'docs/templates/exercise-template.md',
   'docs/templates/review-checklist.md'
@@ -177,6 +337,12 @@ try {
 
   Write-Host 'Validating Markdown links'
   Test-MarkdownLinks -RootPath $repoRoot
+
+  Write-Host 'Validating curriculum topic bundles and lesson metadata'
+  Test-CurriculumTopicBundles -RootPath $repoRoot
+
+  Write-Host 'Validating sample data and fixtures conventions'
+  Test-SampleDataConventions -RootPath $repoRoot
 
   $solutions = Get-ChildItem -Path $repoRoot -Filter *.sln -Recurse -File
   $projects = Get-ChildItem -Path $repoRoot -Filter *.csproj -Recurse -File |

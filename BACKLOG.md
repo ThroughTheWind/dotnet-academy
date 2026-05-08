@@ -18,7 +18,7 @@ Use it as the main execution view for building the course end to end. The roadma
 | --- | --- | --- | --- |
 | M0 Foundation | Establish repository structure and authoring workflow | Repo initialized, templates exist, validation exists, first topic can be scaffolded | done |
 | M1 First Teaching Slice | Prove the content model with one complete beginner topic | One complete Stage 1 topic with lesson, exercise, runnable sample, and verification | done |
-| M2 Core Language Path | Deliver the first end-to-end C# learning path | Stages 1-3 complete with progressive exercises and working demos | todo |
+| M2 Core Language Path | Deliver the first end-to-end C# learning path | Stages 1-3 complete with progressive exercises and working demos | done |
 | M3 Platform And Backend Path | Deliver runtime, data, ASP.NET Core, and API tracks | Stages 4-7 complete with at least one integrated sample solution | todo |
 | M4 Frontend And Quality Path | Deliver Blazor and testing tracks | Stages 8-9 complete with integrated UI and test coverage | todo |
 | M5 Senior Depth Path | Deliver performance and architecture tracks | Stages 10-11 complete with profiling, optimization, and architecture labs | todo |
@@ -33,8 +33,8 @@ Use it as the main execution view for building the course end to end. The roadma
 | PLAT-03 | Add lesson navigation and docs index pages | M0 | Learners can discover stages, topics, and associated code from a consistent index | done |
 | PLAT-04 | Define content review rubric and completion checklist | M0 | A reusable review checklist exists for lessons, exercises, labs, and code samples | done |
 | PLAT-05 | Define issue and branch naming conventions for content work | M0 | Contributors can map backlog items to implementation branches and issues consistently | done |
-| PLAT-06 | Add automation for markdown and metadata validation | PLAT-02 | Frontmatter and required lesson files are validated in CI | todo |
-| PLAT-07 | Add sample data, assets, and fixtures conventions | PLAT-01 | Data and fixtures live in predictable locations with naming rules | todo |
+| PLAT-06 | Add automation for markdown and metadata validation | PLAT-02 | Frontmatter and required lesson files are validated in CI | done |
+| PLAT-07 | Add sample data, assets, and fixtures conventions | PLAT-01 | Data and fixtures live in predictable locations with naming rules | done |
 | PLAT-08 | Create the integrated learning solution structure | PLAT-01 | Shared solution strategy exists for demos, exercises, and labs across stages | todo |
 
 ## Immediate Next Slice
@@ -66,7 +66,9 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S03-07 Add exercises that compare imperative and LINQ-based implementations.
 - [x] S03-07A Add exercises that compare synchronous, asynchronous, and streaming data flows.
 - [x] S03-08 Add a lab that combines collections, LINQ, files, and async operations.
-- [ ] PLAT-06 Add automation for markdown and metadata validation.
+- [x] PLAT-06 Add automation for markdown and metadata validation.
+- [x] PLAT-07 Add sample data, assets, and fixtures conventions.
+- [ ] PLAT-08 Create the integrated learning solution structure.
 
 ## Stage Backlog
 

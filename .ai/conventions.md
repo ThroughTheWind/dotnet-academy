@@ -24,6 +24,14 @@ docs/curriculum/<stage>/<topic>/
 - `exercises/<stage>/<topic>/` for learner starter code and exercise assets
 - `labs/<stage>/<topic>/` for guided labs and capstone milestones
 
+## Sample Data And Fixtures
+
+- Put committed runtime sample input under `seed/` inside the owning project.
+- Keep configuration files next to the project file as `appsettings.json` and optional `appsettings.<Environment>.json` overrides.
+- Prefer generating test data in temporary directories. When committed test-only assets are necessary, keep them under `fixtures/` in the owning test project.
+- Use lowercase kebab-case for files and nested directories under `seed/` and `fixtures/`.
+- Do not commit generated output files under `src/`, `labs/`, or `tests/`.
+
 ## Lesson Metadata
 
 Lessons should start with YAML frontmatter shaped like this:

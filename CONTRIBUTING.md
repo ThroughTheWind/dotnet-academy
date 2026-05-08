@@ -10,6 +10,7 @@ This document is for contributors and maintainers. Learners should start with [d
 - Update `ROADMAP.md` if the stage order or scope changes.
 - Use the templates in `docs/templates/` for new lessons and exercises.
 - Use `docs/process/issue-and-branch-naming.md` when naming issues and branches for backlog work.
+- Use `docs/process/sample-data-and-fixtures.md` when adding seed data, configuration files, or committed test fixtures.
 - Use `./scripts/new-curriculum-topic.ps1` to scaffold a new topic before editing files manually.
 - Prefer small, reviewable additions over broad unstructured dumps of content.
 - Keep the course targeted at .NET 10 and current platform guidance unless a lesson explicitly teaches legacy migration.
@@ -23,6 +24,6 @@ This document is for contributors and maintainers. Learners should start with [d
 
 ## Before You Commit
 
-1. Run `./scripts/validate-repository.ps1` so Markdown links, required scaffold files, builds, and tests are checked together.
+1. Run `./scripts/validate-repository.ps1` so Markdown links, curriculum metadata, sample data conventions, required scaffold files, builds, and tests are checked together.
 2. Check the relevant sections in `docs/templates/review-checklist.md` and confirm the asset meets them.
 3. Confirm that any new code samples build or are clearly marked as placeholders.

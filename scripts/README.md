@@ -8,6 +8,6 @@ Keep scripts small, predictable, and safe to run locally and in CI.
 
 Current scripts:
 
-- `validate-repository.ps1` checks the baseline scaffold, validates local Markdown links, restores and builds the solution or projects, and runs tests when test projects exist.
+- `validate-repository.ps1` checks the baseline scaffold, validates local Markdown links, validates required curriculum topic files and lesson frontmatter metadata, validates sample-data and fixture conventions, restores and builds the solution or projects, and runs tests when test projects exist.
 - `new-curriculum-topic.ps1` creates a topic skeleton across `docs/`, `src/`, `exercises/`, and `labs/`.
 

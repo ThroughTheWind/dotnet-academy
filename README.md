@@ -127,13 +127,15 @@ The repository foundation is in place. Implemented so far:
 11. Issue and branch naming conventions now map repository work directly back to backlog items.
 12. Stage 2 is now complete with six complete topics, the first integrated domain-modeling demo, a dedicated semantics exercise pack, and a guided lab.
 13. Stage 3 is now complete with seven topic bundles, one integrated transformation demo, two comparison exercise packs, and the first guided lab for building a study digest pipeline.
+14. Repository validation now checks Markdown links, required curriculum topic files, and lesson frontmatter metadata in the CI validation workflow.
+15. Sample data and fixtures conventions now define `seed/`, `appsettings*.json`, and `fixtures/` usage, and repository validation enforces those locations and naming rules.
 
 The next implementation steps are:
 
-1. Add markdown and metadata validation automation.
-2. Define sample data and fixtures conventions.
-3. Create the integrated learning solution structure.
+1. Create the integrated learning solution structure.
+2. Start Stage 4 runtime tooling and diagnostics content after the shared solution strategy is in place.
+3. Continue the platform and backend path with the first Stage 4 vertical slice.
 
-The next useful milestone is to strengthen the repository platform workflow before starting Stage 4 runtime tooling and diagnostics.
+The next useful milestone is to define the shared solution structure that later stages can reuse before Stage 4 content expands.
 
 Use [docs/README.md](./docs/README.md) for learner navigation and [BACKLOG.md](./BACKLOG.md) for contributor execution order and stage-level completion tracking.
