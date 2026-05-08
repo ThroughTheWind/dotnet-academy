@@ -13,7 +13,7 @@ This index links each stage to its overview and, when available, to the underlyi
 | Stage | Focus | Status | Overview | Asset Index |
 | --- | --- | --- | --- | --- |
 | 01 Foundations | CLI basics, console apps, types, control flow, nullability | implemented | [01 Foundations](./01-foundations/README.md) | [Stage 1 asset index](./01-foundations/README.md#topic-and-asset-index) |
-| 02 CSharp Core | object modeling, abstractions, generics, behavior | in progress | [02 CSharp Core](./02-csharp-core/README.md) | [Stage 2 asset index](./02-csharp-core/README.md#topic-and-asset-index) |
+| 02 CSharp Core | object modeling, abstractions, generics, behavior | implemented | [02 CSharp Core](./02-csharp-core/README.md) | [Stage 2 asset index](./02-csharp-core/README.md#topic-and-asset-index) |
 | 03 Productivity And Data Transformation | LINQ, collections, files, config, async, streaming | planned | [03 Productivity And Data Transformation](./03-productivity-and-data-transformation/README.md) | overview only |
 | 04 Runtime Tooling And Diagnostics | CLI internals, GC, diagnostics, memory, channels | planned | [04 Runtime Tooling And Diagnostics](./04-runtime-tooling-and-diagnostics/README.md) | overview only |
 | 05 Data And Persistence | SQL, EF Core, performance, caching | planned | [05 Data And Persistence](./05-data-and-persistence/README.md) | overview only |
@@ -28,7 +28,7 @@ This index links each stage to its overview and, when available, to the underlyi
 ## Current Implemented Assets
 
 - Stage 1 includes five complete topic bundles, five runnable sample apps, five test projects, and one guided lab.
-- Stage 2 now includes six complete topic bundles plus the first integrated domain-modeling demo.
+- Stage 2 now includes six complete topic bundles, the first integrated domain-modeling demo, a dedicated semantics exercise pack, and the first guided lab.
 - The first integrated lab is [06 Study Session Planner Lab](../../../labs/01-foundations/06-study-session-planner-lab/README.md).
 - The stage-level asset maps live in [01 Foundations](./01-foundations/README.md) and [02 CSharp Core](./02-csharp-core/README.md).
 

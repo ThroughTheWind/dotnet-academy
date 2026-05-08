@@ -53,7 +53,9 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S02-03 Create reusable code topics: generics, collections, exceptions.
 - [x] S02-04 Create behavior topics: delegates, events, lambdas, pattern matching.
 - [x] S02-05 Add a demo solution showing domain modeling and clean abstractions.
-- [ ] S02-06 Add exercises that force learners to choose between reference and value semantics appropriately.
+- [x] S02-06 Add exercises that force learners to choose between reference and value semantics appropriately.
+- [x] S02-07 Add one guided lab centered on designing a small domain model.
+- [ ] S03-01 Create LINQ fundamentals and query thinking topics.
 - [ ] PLAT-06 Add automation for markdown and metadata validation.
 
 ## Stage Backlog
@@ -92,8 +94,8 @@ Backlog:
 - [x] S02-03 Create reusable code topics: generics, collections, exceptions.
 - [x] S02-04 Create behavior topics: delegates, events, lambdas, pattern matching.
 - [x] S02-05 Add a demo solution showing domain modeling and clean abstractions.
-- [ ] S02-06 Add exercises that force learners to choose between reference and value semantics appropriately.
-- [ ] S02-07 Add one guided lab centered on designing a small domain model.
+- [x] S02-06 Add exercises that force learners to choose between reference and value semantics appropriately.
+- [x] S02-07 Add one guided lab centered on designing a small domain model.
 
 Done when:
 

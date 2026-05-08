@@ -6,6 +6,8 @@ This stage builds the core language features needed to write maintainable real-w
 
 - Curriculum index: [docs/curriculum/README.md](../README.md)
 - Integrated demo: [07 Domain Modeling Demo](../../../src/02-csharp-core/07-domain-modeling-demo/README.md)
+- Stage exercise pack: [07 Reference And Value Semantics](../../../exercises/02-csharp-core/07-reference-and-value-semantics/README.md)
+- Stage lab: [08 Learning Track Domain Model Lab](../../../labs/02-csharp-core/08-learning-track-domain-model-lab/README.md)
 
 ## Outcomes
 
@@ -39,3 +41,15 @@ This stage builds the core language features needed to write maintainable real-w
 - Domain project: [DotnetAcademy.DomainModelingDemo](../../../src/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo/)
 - Console host: [DotnetAcademy.DomainModelingDemo.Console](../../../src/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo.Console/)
 - Tests: [DotnetAcademy.DomainModelingDemo.Tests](../../../tests/02-csharp-core/07-domain-modeling-demo/DotnetAcademy.DomainModelingDemo.Tests/)
+
+## Stage Exercise Pack
+
+- [07 Reference And Value Semantics](../../../exercises/02-csharp-core/07-reference-and-value-semantics/README.md) asks learners to justify when a shared reference, immutable record, or value-like struct is the safer design choice.
+- Workspace guidance: [workspace](../../../exercises/02-csharp-core/07-reference-and-value-semantics/workspace/README.md)
+
+## Guided Lab
+
+- [08 Learning Track Domain Model Lab](../../../labs/02-csharp-core/08-learning-track-domain-model-lab/README.md) combines the Stage 2 language features into one learner-facing domain-modeling project.
+- Starter assets: [starter](../../../labs/02-csharp-core/08-learning-track-domain-model-lab/starter/)
+- Reference implementation: [solution](../../../labs/02-csharp-core/08-learning-track-domain-model-lab/solution/DotnetAcademy.LearningTrackLab/)
+- Tests: [DotnetAcademy.LearningTrackLab.Tests](../../../tests/02-csharp-core/08-learning-track-domain-model-lab/DotnetAcademy.LearningTrackLab.Tests/)
