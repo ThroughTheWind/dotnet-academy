@@ -35,7 +35,7 @@ Use it as the main execution view for building the course end to end. The roadma
 | PLAT-05 | Define issue and branch naming conventions for content work | M0 | Contributors can map backlog items to implementation branches and issues consistently | done |
 | PLAT-06 | Add automation for markdown and metadata validation | PLAT-02 | Frontmatter and required lesson files are validated in CI | done |
 | PLAT-07 | Add sample data, assets, and fixtures conventions | PLAT-01 | Data and fixtures live in predictable locations with naming rules | done |
-| PLAT-08 | Create the integrated learning solution structure | PLAT-01 | Shared solution strategy exists for demos, exercises, and labs across stages | todo |
+| PLAT-08 | Create the integrated learning solution structure | PLAT-01 | Shared solution strategy exists for demos, exercises, and labs across stages | done |
 
 ## Immediate Next Slice
 
@@ -68,7 +68,8 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S03-08 Add a lab that combines collections, LINQ, files, and async operations.
 - [x] PLAT-06 Add automation for markdown and metadata validation.
 - [x] PLAT-07 Add sample data, assets, and fixtures conventions.
-- [ ] PLAT-08 Create the integrated learning solution structure.
+- [x] PLAT-08 Create the integrated learning solution structure.
+- [ ] S04-01 Create .NET CLI, SDK, build, and packaging topics.
 
 ## Stage Backlog
 

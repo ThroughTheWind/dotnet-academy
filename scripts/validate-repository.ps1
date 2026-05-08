@@ -310,14 +310,54 @@ function Test-SampleDataConventions {
   }
 }
 
+function Test-IntegratedSolutionStructure {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$RootPath,
+    [Parameter(Mandatory = $true)]
+    [string]$SolutionPath
+  )
+
+  if (-not (Test-Path -LiteralPath $SolutionPath)) {
+    throw "Missing required solution '$SolutionPath'"
+  }
+
+  $solutionContent = Get-Content -Path $SolutionPath
+  $solutionProjectPaths = New-Object System.Collections.Generic.HashSet[string]([System.StringComparer]::OrdinalIgnoreCase)
+
+  foreach ($line in $solutionContent) {
+    if ($line -match '"(?<path>[^\"]+\.csproj)"') {
+      [void]$solutionProjectPaths.Add($matches['path'].Replace('/', '\\'))
+    }
+  }
+
+  $repoProjects = Get-ChildItem -Path (Join-Path $RootPath 'src'), (Join-Path $RootPath 'labs'), (Join-Path $RootPath 'tests') -Filter *.csproj -Recurse -File -ErrorAction SilentlyContinue |
+    Where-Object { $_.FullName -notmatch '[\\/](bin|obj)[\\/]' }
+
+  $missingProjects = New-Object System.Collections.Generic.List[string]
+
+  foreach ($project in $repoProjects) {
+    $relativeProjectPath = Get-RepositoryRelativePath -BasePath $RootPath -TargetPath $project.FullName
+    if (-not $solutionProjectPaths.Contains($relativeProjectPath)) {
+      $missingProjects.Add($relativeProjectPath)
+    }
+  }
+
+  if ($missingProjects.Count -gt 0) {
+    throw "Integrated solution structure validation failed:`nThe following projects are missing from dotnet-academy.sln:`n$($missingProjects -join [Environment]::NewLine)"
+  }
+}
+
 $requiredPaths = @(
   'README.md',
   'ROADMAP.md',
   'CONTRIBUTING.md',
+  'dotnet-academy.sln',
   '.ai/instructions.md',
   '.ai/conventions.md',
   'docs/README.md',
   'docs/curriculum/README.md',
+  'docs/process/integrated-learning-solution-structure.md',
   'docs/process/issue-and-branch-naming.md',
   'docs/process/sample-data-and-fixtures.md',
   'docs/templates/lesson-template.md',
@@ -343,6 +383,9 @@ try {
 
   Write-Host 'Validating sample data and fixtures conventions'
   Test-SampleDataConventions -RootPath $repoRoot
+
+  Write-Host 'Validating integrated solution structure'
+  Test-IntegratedSolutionStructure -RootPath $repoRoot -SolutionPath (Join-Path $repoRoot 'dotnet-academy.sln')
 
   $solutions = Get-ChildItem -Path $repoRoot -Filter *.sln -Recurse -File
   $projects = Get-ChildItem -Path $repoRoot -Filter *.csproj -Recurse -File |

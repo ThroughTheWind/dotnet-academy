@@ -129,13 +129,14 @@ The repository foundation is in place. Implemented so far:
 13. Stage 3 is now complete with seven topic bundles, one integrated transformation demo, two comparison exercise packs, and the first guided lab for building a study digest pipeline.
 14. Repository validation now checks Markdown links, required curriculum topic files, and lesson frontmatter metadata in the CI validation workflow.
 15. Sample data and fixtures conventions now define `seed/`, `appsettings*.json`, and `fixtures/` usage, and repository validation enforces those locations and naming rules.
+16. The repository now treats `dotnet-academy.sln` as the authoritative integration solution for runnable demos, labs, and tests, and validation fails if a committed project drops out of that shared structure.
 
 The next implementation steps are:
 
-1. Create the integrated learning solution structure.
-2. Start Stage 4 runtime tooling and diagnostics content after the shared solution strategy is in place.
-3. Continue the platform and backend path with the first Stage 4 vertical slice.
+1. Start Stage 4 with the .NET CLI, SDK, build, and packaging topic slice.
+2. Continue Stage 4 with memory, diagnostics, and concurrency topics.
+3. Add the benchmark and diagnostics sample projects after the Stage 4 core topics are in place.
 
-The next useful milestone is to define the shared solution structure that later stages can reuse before Stage 4 content expands.
+The next useful milestone is to establish the first Stage 4 runtime tooling and diagnostics slice now that the platform workflow is in place.
 
 Use [docs/README.md](./docs/README.md) for learner navigation and [BACKLOG.md](./BACKLOG.md) for contributor execution order and stage-level completion tracking.
