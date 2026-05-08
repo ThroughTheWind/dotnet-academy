@@ -8,12 +8,13 @@ This stage focuses on the everyday language and library features that make .NET 
 - Curriculum stage map: [Curriculum Index](../README.md#stage-map)
 - Review the previous stage: [02 CSharp Core](../02-csharp-core/README.md#how-to-use-this-stage)
 - Jump to this stage assets: [Topic And Asset Index](#topic-and-asset-index)
+- Open the integrated sample: [06 Integrated Transformation Sample](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/README.md)
 - Open the first lesson: [01 LINQ Fundamentals And Query Thinking Lesson](./01-linq-fundamentals-and-query-thinking/lesson.md)
 - Open the first exercises: [01 LINQ Fundamentals And Query Thinking Exercises](./01-linq-fundamentals-and-query-thinking/exercises.md)
 - Open the first demo: [DotnetAcademy.LinqQueryThinkingDemo](../../../src/03-productivity-and-data-transformation/01-linq-fundamentals-and-query-thinking/DotnetAcademy.LinqQueryThinkingDemo/)
 - Continue to the next stage: [04 Runtime Tooling And Diagnostics](../04-runtime-tooling-and-diagnostics/README.md)
 
-Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now. Integrated multi-topic assets are still planned.
+Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now, and the first integrated sample is ready now. Comparison exercises and the stage lab are still planned.
 
 ## Outcomes
 
@@ -25,6 +26,7 @@ Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A 
 
 - Work through the implemented topics in order.
 - For each implemented topic, read the overview and lesson first, attempt the exercises, then inspect the matching demo in `src/`.
+- Use the integrated demo after the core topics when you want one sample that combines files, configuration, collections, LINQ shaping, and asynchronous source loading.
 - Treat the remaining planned topics as upcoming content rather than required next steps today.
 
 ## Topic Sequence
@@ -51,6 +53,13 @@ Each Demo link opens a runnable reference implementation under `src/`.
 | 05 Async And Await Foundations | [Overview](./05-async-and-await-foundations/README.md) | [Lesson](./05-async-and-await-foundations/lesson.md) | [Exercises](./05-async-and-await-foundations/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/05-async-and-await-foundations/DotnetAcademy.AsyncAwaitFoundationsDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/05-async-and-await-foundations/DotnetAcademy.AsyncAwaitFoundationsDemo.Tests/) |
 | 05A Cancellation Async Streams And ValueTask Tradeoffs | [Overview](./05a-cancellation-async-streams-and-valuetask-tradeoffs/README.md) | [Lesson](./05a-cancellation-async-streams-and-valuetask-tradeoffs/lesson.md) | [Exercises](./05a-cancellation-async-streams-and-valuetask-tradeoffs/exercises.md) | [Demo](../../../src/03-productivity-and-data-transformation/05a-cancellation-async-streams-and-valuetask-tradeoffs/DotnetAcademy.CancellationAsyncStreamsValueTaskDemo/) | [Tests](../../../tests/03-productivity-and-data-transformation/05a-cancellation-async-streams-and-valuetask-tradeoffs/DotnetAcademy.CancellationAsyncStreamsValueTaskDemo.Tests/) |
 
+## Integrated Demo
+
+- [06 Integrated Transformation Sample](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/README.md) combines Stage 3 file input, configuration, collections, LINQ shaping, and asynchronous loading in one multi-project sample.
+- Library project: [DotnetAcademy.IntegratedTransformationDemo](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo/)
+- Console host: [DotnetAcademy.IntegratedTransformationDemo.Console](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo.Console/)
+- Tests: [DotnetAcademy.IntegratedTransformationDemo.Tests](../../../tests/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo.Tests/)
+
 ## Remaining Planned Topics
 
-- Integrated transformation sample, comparison exercises, and stage lab
+- Comparison exercises and stage lab

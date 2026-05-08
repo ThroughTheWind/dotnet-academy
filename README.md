@@ -126,14 +126,14 @@ The repository foundation is in place. Implemented so far:
 10. A reusable review checklist now defines the baseline acceptance criteria for lessons, exercises, labs, and code samples.
 11. Issue and branch naming conventions now map repository work directly back to backlog items.
 12. Stage 2 is now complete with six complete topics, the first integrated domain-modeling demo, a dedicated semantics exercise pack, and a guided lab.
-13. Stage 3 now includes seven complete topics covering LINQ fundamentals, collection choice, read-only versus immutable versus frozen collection tradeoffs, file-based JSON serialization workflows, configuration basics, async foundations, and advanced async tradeoffs.
+13. Stage 3 now includes seven complete topics plus the first integrated transformation demo for loading, shaping, and persisting data from multiple sources.
 
 The next implementation steps are:
 
-1. Continue Stage 3 with the integrated sample app that transforms and persists data from multiple sources.
-2. Add markdown and metadata validation automation.
-3. Define sample data and fixtures conventions.
+1. Continue Stage 3 with exercises that compare imperative and LINQ-based implementations.
+2. Continue Stage 3 with exercises that compare synchronous, asynchronous, and streaming data flows.
+3. Add markdown and metadata validation automation.
 
-The next useful milestone is to carry Stage 3 from advanced async tradeoffs into the integrated transformation sample before moving on to the comparison exercise packs.
+The next useful milestone is to carry Stage 3 from the integrated transformation sample into the comparison exercise packs before moving on to the stage lab.
 
 Use [docs/README.md](./docs/README.md) for learner navigation and [BACKLOG.md](./BACKLOG.md) for contributor execution order and stage-level completion tracking.
