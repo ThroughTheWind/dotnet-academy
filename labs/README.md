@@ -13,4 +13,4 @@ This directory contains guided labs, milestone-based projects, and the final cap
 
 - `labs/01-foundations/06-study-session-planner-lab/` is the first integrated Stage 1 guided lab.
 - `labs/02-csharp-core/08-learning-track-domain-model-lab/` is the first integrated Stage 2 guided lab centered on designing a small domain model.
-- Stage 3 does not have a guided lab yet.
+- `labs/03-productivity-and-data-transformation/08-study-digest-pipeline-lab/` is the integrated Stage 3 guided lab for combining collections, LINQ, file input, and asynchronous operations in one digest pipeline.

@@ -64,7 +64,8 @@ These are the highest-value items to execute next because they unlock the rest o
 - [x] S03-05A Create cancellation, async streams, and `ValueTask` tradeoffs topic.
 - [x] S03-06 Add a sample app that transforms and persists data from multiple sources.
 - [x] S03-07 Add exercises that compare imperative and LINQ-based implementations.
-- [ ] S03-07A Add exercises that compare synchronous, asynchronous, and streaming data flows.
+- [x] S03-07A Add exercises that compare synchronous, asynchronous, and streaming data flows.
+- [x] S03-08 Add a lab that combines collections, LINQ, files, and async operations.
 - [ ] PLAT-06 Add automation for markdown and metadata validation.
 
 ## Stage Backlog
@@ -126,8 +127,8 @@ Backlog:
 - [x] S03-05A Create cancellation, async streams, and `ValueTask` tradeoffs topic.
 - [x] S03-06 Add a sample app that transforms and persists data from multiple sources.
 - [x] S03-07 Add exercises that compare imperative and LINQ-based implementations.
-- [ ] S03-07A Add exercises that compare synchronous, asynchronous, and streaming data flows.
-- [ ] S03-08 Add a lab that combines collections, LINQ, files, and async operations.
+- [x] S03-07A Add exercises that compare synchronous, asynchronous, and streaming data flows.
+- [x] S03-08 Add a lab that combines collections, LINQ, files, and async operations.
 
 Done when:
 

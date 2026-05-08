@@ -10,12 +10,14 @@ This stage focuses on the everyday language and library features that make .NET 
 - Jump to this stage assets: [Topic And Asset Index](#topic-and-asset-index)
 - Open the integrated sample: [06 Integrated Transformation Sample](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/README.md)
 - Open the stage exercise pack: [07 Imperative Versus LINQ Comparison](../../../exercises/03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/README.md)
+- Open the async flow comparison pack: [07A Synchronous Asynchronous Streaming Flow Comparison](../../../exercises/03-productivity-and-data-transformation/07a-synchronous-asynchronous-and-streaming-flow-comparison/README.md)
+- Open the guided lab: [08 Study Digest Pipeline Lab](../../../labs/03-productivity-and-data-transformation/08-study-digest-pipeline-lab/README.md)
 - Open the first lesson: [01 LINQ Fundamentals And Query Thinking Lesson](./01-linq-fundamentals-and-query-thinking/lesson.md)
 - Open the first exercises: [01 LINQ Fundamentals And Query Thinking Exercises](./01-linq-fundamentals-and-query-thinking/exercises.md)
 - Open the first demo: [DotnetAcademy.LinqQueryThinkingDemo](../../../src/03-productivity-and-data-transformation/01-linq-fundamentals-and-query-thinking/DotnetAcademy.LinqQueryThinkingDemo/)
 - Continue to the next stage: [04 Runtime Tooling And Diagnostics](../04-runtime-tooling-and-diagnostics/README.md)
 
-Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now, the first integrated sample is ready now, and the first comparison exercise pack is ready now. The async flow comparison pack and the stage lab are still planned.
+Stage 3 is implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A are ready now, the integrated sample is ready now, both comparison exercise packs are ready now, and the guided lab is ready now.
 
 ## Outcomes
 
@@ -28,8 +30,8 @@ Stage 3 is partially implemented today. Topics 01, 02, 02A, 03, 04, 05, and 05A 
 - Work through the implemented topics in order.
 - For each implemented topic, read the overview and lesson first, attempt the exercises, then inspect the matching demo in `src/`.
 - Use the integrated demo after the core topics when you want one sample that combines files, configuration, collections, LINQ shaping, and asynchronous source loading.
-- Use the stage exercise pack after the core topics when you want to compare imperative and LINQ-based data shaping against the same requirements.
-- Treat the remaining planned topics as upcoming content rather than required next steps today.
+- Use the stage exercise packs after the core topics when you want to compare both data-shaping styles and flow-control styles against the same requirements.
+- Use the guided lab after the topics, integrated demo, and comparison packs when you want one learner project that combines the full Stage 3 toolset.
 
 ## Topic Sequence
 
@@ -62,11 +64,16 @@ Each Demo link opens a runnable reference implementation under `src/`.
 - Console host: [DotnetAcademy.IntegratedTransformationDemo.Console](../../../src/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo.Console/)
 - Tests: [DotnetAcademy.IntegratedTransformationDemo.Tests](../../../tests/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo.Tests/)
 
-## Stage Exercise Pack
+## Stage Exercise Packs
 
 - [07 Imperative Versus LINQ Comparison](../../../exercises/03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/README.md) asks learners to solve the same digest-building problem once with explicit loops and once with a LINQ pipeline.
 - Workspace guidance: [workspace](../../../exercises/03-productivity-and-data-transformation/07-imperative-versus-linq-comparison/workspace/README.md)
+- [07A Synchronous Asynchronous Streaming Flow Comparison](../../../exercises/03-productivity-and-data-transformation/07a-synchronous-asynchronous-and-streaming-flow-comparison/README.md) asks learners to build the same digest through synchronous, asynchronous batch, and streaming control flows.
+- Workspace guidance: [workspace](../../../exercises/03-productivity-and-data-transformation/07a-synchronous-asynchronous-and-streaming-flow-comparison/workspace/README.md)
 
-## Remaining Planned Topics
+## Guided Lab
 
-- Async flow comparison pack and stage lab
+- [08 Study Digest Pipeline Lab](../../../labs/03-productivity-and-data-transformation/08-study-digest-pipeline-lab/README.md) combines collections, LINQ, file input, configuration, and asynchronous loading in one learner-facing project.
+- Starter pack: [starter](../../../labs/03-productivity-and-data-transformation/08-study-digest-pipeline-lab/starter/)
+- Reference implementation: [solution](../../../labs/03-productivity-and-data-transformation/08-study-digest-pipeline-lab/solution/DotnetAcademy.StudyDigestPipelineLab/)
+- Tests: [DotnetAcademy.StudyDigestPipelineLab.Tests](../../../tests/03-productivity-and-data-transformation/08-study-digest-pipeline-lab/DotnetAcademy.StudyDigestPipelineLab.Tests/)

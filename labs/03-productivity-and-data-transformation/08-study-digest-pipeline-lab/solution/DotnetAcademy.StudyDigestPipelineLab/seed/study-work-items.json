@@ -1,0 +1,23 @@
+[
+  {
+    "moduleName": "JSON exports",
+    "category": "data",
+    "sourceName": "seed archive",
+    "pendingSteps": 2,
+    "minutes": 45
+  },
+  {
+    "moduleName": "LINQ cleanup",
+    "category": "data",
+    "sourceName": "seed archive",
+    "pendingSteps": 1,
+    "minutes": 20
+  },
+  {
+    "moduleName": "Configuration layering",
+    "category": "platform",
+    "sourceName": "seed archive",
+    "pendingSteps": 2,
+    "minutes": 35
+  }
+]
