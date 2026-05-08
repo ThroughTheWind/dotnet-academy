@@ -43,7 +43,7 @@ This index links each stage to its overview and, when available, to the underlyi
 | 01 Foundations | CLI basics, console apps, types, control flow, nullability | implemented | [01 Foundations](./01-foundations/README.md) | [Stage 1 asset index](./01-foundations/README.md#topic-and-asset-index) |
 | 02 CSharp Core | object modeling, abstractions, generics, behavior | implemented | [02 CSharp Core](./02-csharp-core/README.md) | [Stage 2 asset index](./02-csharp-core/README.md#topic-and-asset-index) |
 | 03 Productivity And Data Transformation | LINQ, collections, files, config, async, streaming | implemented | [03 Productivity And Data Transformation](./03-productivity-and-data-transformation/README.md) | [Stage 3 asset index](./03-productivity-and-data-transformation/README.md#topic-and-asset-index) |
-| 04 Runtime Tooling And Diagnostics | CLI internals, GC, diagnostics, memory, channels | planned | [04 Runtime Tooling And Diagnostics](./04-runtime-tooling-and-diagnostics/README.md) | overview only |
+| 04 Runtime Tooling And Diagnostics | CLI internals, GC, diagnostics, memory, channels | in progress | [04 Runtime Tooling And Diagnostics](./04-runtime-tooling-and-diagnostics/README.md) | [Stage 4 asset index](./04-runtime-tooling-and-diagnostics/README.md#topic-and-asset-index) |
 | 05 Data And Persistence | SQL, EF Core, performance, caching | planned | [05 Data And Persistence](./05-data-and-persistence/README.md) | overview only |
 | 06 AspNetCore Foundations | hosting, middleware, DI, config, lifecycle, errors | planned | [06 AspNetCore Foundations](./06-aspnetcore-foundations/README.md) | overview only |
 | 07 Api Development | REST, minimal APIs, auth, contracts, gRPC, SignalR | planned | [07 Api Development](./07-api-development/README.md) | overview only |
@@ -53,14 +53,15 @@ This index links each stage to its overview and, when available, to the underlyi
 | 11 Architecture And Delivery | architecture, messaging, background work, observability, delivery | planned | [11 Architecture And Delivery](./11-architecture-and-delivery/README.md) | overview only |
 | 12 Capstone | end-to-end production-style delivery | planned | [12 Capstone](./12-capstone/README.md) | overview only |
 
-Stage 3 is fully implemented today: topics 01, 02, 02A, 03, 04, 05, and 05A are ready now, along with the integrated transformation sample, two comparison exercise packs, and the Stage 3 guided lab.
+Stage 3 is fully implemented today: topics 01, 02, 02A, 03, 04, 05, and 05A are ready now, along with the integrated transformation sample, two comparison exercise packs, and the Stage 3 guided lab. Stage 4 is now in progress with topic 01 ready as the first runtime tooling slice.
 
 ## Current Implemented Assets
 
 - Stage 1 includes five complete topic bundles, five runnable demos, five test projects, and one guided lab.
 - Stage 2 now includes six complete topic bundles, the first integrated domain-modeling demo, a dedicated semantics exercise pack, and the first guided lab.
 - Stage 3 now includes seven complete topic bundles, the first integrated transformation sample, two comparison exercise packs, and the `08-study-digest-pipeline-lab` guided lab.
+- Stage 4 is now in progress with the `01-dotnet-cli-sdk-build-and-packaging` topic bundle, runnable demo, learner starter pack, and test project.
 - The first integrated lab is [06 Study Session Planner Lab](../../labs/01-foundations/06-study-session-planner-lab/README.md).
-- The stage-level asset maps live in [01 Foundations](./01-foundations/README.md#topic-and-asset-index), [02 CSharp Core](./02-csharp-core/README.md#topic-and-asset-index), and [03 Productivity And Data Transformation](./03-productivity-and-data-transformation/README.md#topic-and-asset-index).
+- The stage-level asset maps live in [01 Foundations](./01-foundations/README.md#topic-and-asset-index), [02 CSharp Core](./02-csharp-core/README.md#topic-and-asset-index), [03 Productivity And Data Transformation](./03-productivity-and-data-transformation/README.md#topic-and-asset-index), and [04 Runtime Tooling And Diagnostics](./04-runtime-tooling-and-diagnostics/README.md#topic-and-asset-index).
 
 See `ROADMAP.md` for the full program scope and `README.md` for repository-level orientation.

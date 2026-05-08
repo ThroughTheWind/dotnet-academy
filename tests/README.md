@@ -27,6 +27,7 @@ This directory contains automated tests for runnable demos and, later, integrate
 - `tests/03-productivity-and-data-transformation/05a-cancellation-async-streams-and-valuetask-tradeoffs/DotnetAcademy.CancellationAsyncStreamsValueTaskDemo.Tests/` verifies the Stage 3 advanced async sample for cooperative cancellation, `await foreach`, and narrow `ValueTask<T>` cache usage.
 - `tests/03-productivity-and-data-transformation/06-integrated-transformation-sample/DotnetAcademy.IntegratedTransformationDemo.Tests/` verifies the integrated Stage 3 sample for multi-source loading, LINQ shaping, configuration-driven focus rules, and persisted JSON and text outputs.
 - `tests/03-productivity-and-data-transformation/08-study-digest-pipeline-lab/DotnetAcademy.StudyDigestPipelineLab.Tests/` verifies the Stage 3 guided lab reference implementation for JSON input, delayed async sources, LINQ summaries, and persisted output files.
+- `tests/04-runtime-tooling-and-diagnostics/01-dotnet-cli-sdk-build-and-packaging/DotnetAcademy.DotnetCliBuildPackagingDemo.Tests/` verifies the first Stage 4 tooling sample for SDK pinning, project metadata parsing, command sequencing, and packaging decisions.
 
 ## Conventions
 
